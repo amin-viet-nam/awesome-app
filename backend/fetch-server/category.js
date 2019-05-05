@@ -1,0 +1,73 @@
+module.exports = [{
+    label: "English",
+    value: "en"
+}, {
+    label: "Español",
+    value: "es"
+}, {
+    label: "Português",
+    value: "pt"
+}, {
+    label: "Français",
+    value: "fr"
+}, {
+    label: "ภาษาไทย",
+    value: "th"
+}, {
+    label: "Bahasa Indonesia",
+    value: "id"
+}, {
+    label: "Bahasa Melayu",
+    value: "ms"
+}, {
+    label: "Deutsch",
+    value: "de"
+}, {
+    label: "Italiano",
+    value: "it"
+}, {
+    label: "Tiếng Việt",
+    value: "vi"
+}, {
+    label: "Tagalog",
+    value: "tl"
+}, {
+    label: "日本語",
+    value: "ja"
+}, {
+    label: "Türkçe",
+    value: "tr"
+}, {
+    label: "繁體中文",
+    value: "zh"
+}, {
+    label: "Nederlands",
+    value: "nl"
+}, {
+    label: "Pусский",
+    value: "ru"
+}, {
+    label: "România",
+    value: "ro"
+}, {
+    label: "Polski",
+    value: "pl"
+}, {
+    label: "ქართული",
+    value: "ka"
+}, {
+    label: "українська",
+    value: "uk"
+}, {
+    label: "हिन्दी",
+    value: "hi"
+}, {
+    label: "မြန်မာဘာသာ",
+    value: "my"
+}, {
+    label: "Български",
+    value: "bg"
+}, {
+    label: "Svenska",
+    value: "sv"
+}];
