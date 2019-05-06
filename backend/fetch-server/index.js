@@ -1,6 +1,19 @@
-let request = require('request');
-let requestPromise = require('request-promise');
-let fs = require('fs');
+const request = require('request');
+const requestPromise = require('request-promise');
+const fs = require('fs');
+const s3 = require('s3');
+
+let client = s3.createClient({
+    maxAsyncS3: 20,
+    s3RetryCount: 3,
+    s3RetryDelay: 1000,
+    multipartUploadThreshold: 20971520,
+    multipartUploadSize: 15728640,
+    s3Options: {
+        accessKeyId: "AKIAQ66MJL7IR2Z7UKH6",
+        secretAccessKey: "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"
+    },
+});
 
 let MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017/';
@@ -130,12 +143,26 @@ async function downloadContentMedia(content) {
 function downloadMedia(uri) {
     console.log(`download media ${uri}`);
     return new Promise((resolve, reject) => {
-        const fileName = mediaPath + getFileNameFromUrl(uri);
+        const fileName = getFileNameFromUrl(uri);
 
         request({
             uri
-        }).pipe(fs.createWriteStream(fileName)).on('close', () => {
-            resolve();
+        }).pipe(fs.createWriteStream(mediaPath + fileName)).on('close', () => {
+            client.uploadFile({
+                localFile: mediaPath + fileName,
+
+                s3Params: {
+                    Bucket: 'awesome-storage',
+                    Key: fileName
+                },
+            }).on('error', (err) => {
+                console.error("unable to upload:", err.stack);
+                reject(err);
+            }).on('end', () => {
+                console.log("done uploading");
+                fs.unlinkSync(mediaPath + fileName);
+                resolve();
+            });
         }).on('error', (err) => {
             reject(err);
         })
