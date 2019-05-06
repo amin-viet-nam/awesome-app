@@ -10,8 +10,8 @@ let client = s3.createClient({
     multipartUploadThreshold: 20971520,
     multipartUploadSize: 15728640,
     s3Options: {
-        accessKeyId: "AKIAQ66MJL7IR2Z7UKH6",
-        secretAccessKey: "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"
+        accessKeyId: "AKIAQ66MJL7IRQSJACOQ",
+        secretAccessKey: "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"
     },
 });
 
@@ -159,7 +159,7 @@ function downloadMedia(uri) {
                 console.error("unable to upload:", err.stack);
                 reject(err);
             }).on('end', () => {
-                console.log("done uploading");
+                console.log(`upload s3 success ${mediaPath + fileName}`);
                 fs.unlinkSync(mediaPath + fileName);
                 resolve();
             });
