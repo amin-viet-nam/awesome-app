@@ -153,13 +153,13 @@ function downloadMedia(uri) {
 
                 s3Params: {
                     Bucket: 'awesome-storage',
-                    Key: fileName
+                    Key: `content/${fileName}`
                 },
             }).on('error', (err) => {
                 console.error("unable to upload:", err.stack);
                 reject(err);
             }).on('end', () => {
-                console.log(`upload s3 success ${mediaPath + fileName}`);
+                console.log(`upload s3 success content/${fileName}`);
                 fs.unlinkSync(mediaPath + fileName);
                 resolve();
             });
