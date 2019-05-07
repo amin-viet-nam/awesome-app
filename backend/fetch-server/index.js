@@ -76,7 +76,7 @@ async function fetchCategoryTillEmpty(item) {
 
         if (!hasNext) {
             console.log(`-- stop fetch category : ${language} - ${page} - ${domain} --`);
-            processing = processing.filter(f => f.domain !== item.dom && f.language !== item.language);
+            processing = processing.filter(f => f.domain !== item.domain && f.language !== item.language);
             break;
         }
     }
@@ -88,10 +88,12 @@ async function fetchAndSaveHomeContent(qs) {
     return await fetchHomeContent(qs)
         .then(async results => {
             if (results.length > 0) {
-                await insertContents(results);
+                const insertedIds = await insertContents(results);
+                
+                const newContentList = results.filter(f => insertedIds.includes(f._id));
 
-                for (let i = 0; i < results.length; i++) {
-                    await downloadContentMedia(results[i]);
+                for (let i = 0; i < newContentList.length; i++) {
+                    await downloadContentMedia(newContentList[i]);
                 }
                 return true;
             }
@@ -119,9 +121,24 @@ function fetchHomeContent(qs) {
 function insertContents(contents) {
     return awesomeDatabase.collection('content')
         .insertMany(contents, {ordered: false})
+        .then(result => {
+            return Object.keys(result.insertedIds)
+                .map(m => (result.insertedIds[m]));
+        })
         .catch((err) => {
             if (err.name !== 'BulkWriteError' && err.code !== 11000) {
                 console.error(err);
+            } else {
+                let errorIds;
+                if (err.writeErrors !== undefined) {
+                    errorIds = err.writeErrors.map(m => m.err.op._id);
+                } else {
+                    errorIds = err.result.result.writeErrors.map(m => m.err.op._id);
+                }
+
+                return contents
+                    .filter(f => !errorIds.includes(f._id))
+                    .map(m => m._id);
             }
         })
 }
@@ -132,7 +149,8 @@ async function downloadContentMedia(content) {
         for (let i = 0; i < mediaList.length; i++) {
             const mediaSrc = mediaList[i].media.src;
             await downloadMedia(mediaSrc).catch(err => {
-                console.log(`download media failed ${mediaSrc}`)
+                console.error(err);
+                console.error(`download media failed ${mediaSrc}`)
             });
         }
     } else {
