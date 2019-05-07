@@ -164,6 +164,10 @@ async function downloadMedia(uri) {
 
     const fileName = getFileNameFromUrl(uri);
 
+    if (fileName === false) {
+        return null;
+    }
+
     const bucketKey = `content/${fileName}`;
 
     return await checkBucketObjectExists(s3BucketName, bucketKey)
@@ -228,5 +232,11 @@ function checkBucketObjectExists(bucket, key) {
 }
 
 function getFileNameFromUrl(url) {
-    return url.split('/').pop().replace(/[\#\?].*$/, '');
+    try {
+        const fileName = url.split('/').pop().replace(/[\#\?].*$/, '');
+        return fileName;
+    } catch (e) {
+        console.error(e);
+    }
+    return false;
 }
