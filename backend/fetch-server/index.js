@@ -1,21 +1,23 @@
 const request = require('request');
 const requestPromise = require('request-promise');
-const fs = require('fs');
-const s3 = require('s3');
+const stream = require('stream');
+const AWS = require("aws-sdk");
 
-let client = s3.createClient({
+AWS.config.update({
+    accessKeyId: "AKIAQ66MJL7IRQSJACOQ",
+    secretAccessKey: "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"
+});
+
+const s3 = new AWS.S3({
     maxAsyncS3: 20,
     s3RetryCount: 3,
     s3RetryDelay: 1000,
     multipartUploadThreshold: 20971520,
-    multipartUploadSize: 15728640,
-    s3Options: {
-        accessKeyId: "AKIAQ66MJL7IRQSJACOQ",
-        secretAccessKey: "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"
-    },
+    multipartUploadSize: 15728640
 });
 
-let MongoClient = require('mongodb').MongoClient;
+const s3BucketName = 'awesome-storage';
+const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017/';
 
 let awesomeDatabase;
@@ -66,7 +68,7 @@ async function fetchTillEmpty() {
 
 async function fetchCategoryTillEmpty(item) {
     const {language, domain} = item;
-    let page = 100;
+    let page = 0;
 
     while (true) {
         page++;
@@ -158,33 +160,71 @@ async function downloadContentMedia(content) {
     }
 }
 
-function downloadMedia(uri) {
-    console.log(`download media ${uri}`);
-    return new Promise((resolve, reject) => {
-        const fileName = getFileNameFromUrl(uri);
+async function downloadMedia(uri) {
 
-        request({
-            uri
-        }).pipe(fs.createWriteStream(mediaPath + fileName)).on('close', () => {
-            client.uploadFile({
-                localFile: mediaPath + fileName,
+    const fileName = getFileNameFromUrl(uri);
 
-                s3Params: {
-                    Bucket: 'awesome-storage',
-                    Key: `content/${fileName}`
-                },
-            }).on('error', (err) => {
-                console.error("unable to upload:", err.stack);
-                reject(err);
-            }).on('end', () => {
-                console.log(`upload s3 success content/${fileName}`);
-                fs.unlinkSync(mediaPath + fileName);
-                resolve();
-            });
-        }).on('error', (err) => {
-            reject(err);
+    const bucketKey = `content/${fileName}`;
+
+    return await checkBucketObjectExists(s3BucketName, bucketKey)
+        .then(exists => {
+            return new Promise((resolve, reject) => {
+                if (exists) {
+                    console.log(`bucket key has already exist ${bucketKey}`);
+                    resolve();
+                } else {
+
+                    console.log(`streaming ${uri} to ${bucketKey}`);
+
+                    request({
+                        uri
+                    }).pipe(uploadFromStream(bucketKey))
+                        .on('error', (error) => {
+                            console.error('streaming media failed', error);
+                            reject(error);
+                        })
+                        .on('end', () => {
+                            resolve();
+                        });
+                }
+            })
         })
+}
+
+function uploadFromStream(bucketKey) {
+    const pass = new stream.PassThrough();
+
+    s3.upload({
+        Bucket: s3BucketName,
+        Key: bucketKey,
+        Body: pass
+    }, (error, data) => {
+        if (error) {
+            console.error("unable to upload:", error);
+        } else {
+            console.log(`upload s3 success ${bucketKey}`);
+        }
     });
+
+    return pass;
+}
+
+function checkBucketObjectExists(bucket, key) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const headCode = await s3.headObject({
+                Bucket: bucket,
+                Key: key
+            }).promise();
+            resolve(true)
+        } catch (headErr) {
+            if (headErr.code === 'NotFound') {
+                resolve(false)
+            }
+        }
+        resolve(false);
+    });
+
 }
 
 function getFileNameFromUrl(url) {
