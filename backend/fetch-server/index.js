@@ -32,7 +32,7 @@ const queue = apps.reduce(((rets, val) =>
         )
 ), []);
 
-const maxProcessor = 5;
+const maxProcessor = 7;
 
 let processing = [];
 
@@ -54,11 +54,11 @@ async function fetchTillEmpty() {
         } else if (queue.length > 0 && processing.length < maxProcessor) {
             const item = queue.shift();
             console.log('push to queue', item);
-            processing.push(fetchCategoryTillEmpty(item));
+            processing.push(item);
         } else {
             if (processing.length > 0) {
                 console.log('processing queue: ' + processing.length + ', queue left: ' + queue.length);
-                await Promise.all(processing);
+                await Promise.all(processing.map(fetchCategoryTillEmpty));
             }
         }
     }
@@ -66,7 +66,7 @@ async function fetchTillEmpty() {
 
 async function fetchCategoryTillEmpty(item) {
     const {language, domain} = item;
-    let page = 0;
+    let page = 100;
 
     while (true) {
         page++;
@@ -89,7 +89,7 @@ async function fetchAndSaveHomeContent(qs) {
         .then(async results => {
             if (results.length > 0) {
                 const insertedIds = await insertContents(results);
-                
+
                 const newContentList = results.filter(f => insertedIds.includes(f._id));
 
                 for (let i = 0; i < newContentList.length; i++) {
