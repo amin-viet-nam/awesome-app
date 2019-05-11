@@ -1415,13 +1415,13 @@
             Ce = (n("28a5"), n("f559"), n("bc3a")),
             Ie = n.n(Ce),
             Ae = "production",
-            xe = "http://localhost:4000/api/";
+            xe = "http://localhost:3000/api/";
         location.hostname.startsWith("localhost") ? Ae = "local" : location.hostname.startsWith("apps-2182009512040623") && (Ae = "test"), "local" !== Ae && (xe = "https://omg-server.herokuapp.com/api/");
         var je = Ie.a.create({
             baseURL: xe,
             timeout: 5e3
         });
-        xe = "local" === Ae ? "http://localhost:4000/api/" : "test" === Ae ? "https://omg-server.herokuapp.com/api/" : "https://d1ckjhze1wxie3.cloudfront.net/";
+        xe = "local" === Ae ? "http://localhost:3000/api/" : "test" === Ae ? "https://omg-server.herokuapp.com/api/" : "https://d1ckjhze1wxie3.cloudfront.net/";
         var $e = Ie.a.create({
                 baseURL: xe,
                 timeout: 8e3
@@ -1676,7 +1676,7 @@
         var He = new v["a"].Store({
                 state: {
                     id: 455676461606571,
-                    app: "OMG",
+                    app: "Awesome",
                     test: "a",
                     language: "en",
                     contents: [],

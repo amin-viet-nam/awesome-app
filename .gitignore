@@ -1,7 +1,1 @@
-backend/api-server/node_modules
-backend/fetch-server/node_modules
-backend/forward-server/node_modules
-
-backend/fetch-server/media/
-
-backend/fetch-server/package-lock\.json
+/build

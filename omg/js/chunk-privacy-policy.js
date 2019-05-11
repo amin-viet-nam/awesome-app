@@ -12,7 +12,7 @@
                 staticClass: "doc-header"
             }, [s("h5", [e._v("About")]), s("p", {
                 staticClass: "doc-description"
-            }, [e._v(e._s(e.app) + " is the property of MAG Inc. ")])]), s("hr"), s("div", {
+            }, [e._v(e._s(e.app) + " is the property of AMG Inc. ")])]), s("hr"), s("div", {
                 staticClass: "doc-body"
             }, [s("h5", [e._v("FAQs")]), e._m(0), s("div", {
                 staticClass: "doc-description doc-body-item"
@@ -22,7 +22,7 @@
                 staticClass: "doc-description doc-body-item"
             }, [s("b", [e._v("1. General")]), s("br"), s("p", {
                 staticClass: "indent-one"
-            }, [e._v("This Privacy Policy was developed with your (hereinafter referred to as the “User”) ease of understanding in mind. This Privacy Policy describes the methods of collection and protection of the user’s data and other such pertinent information. " + e._s(e.app) + " is owned by MAG Inc. (hereinafter referred to as “Supergene”).\n      ")]), s("p", {
+            }, [e._v("This Privacy Policy was developed with your (hereinafter referred to as the “User”) ease of understanding in mind. This Privacy Policy describes the methods of collection and protection of the user’s data and other such pertinent information. " + e._s(e.app) + " is owned by AMG Inc. (hereinafter referred to as “AMG”).\n      ")]), s("p", {
                 staticClass: "indent-one"
             }, [e._v("This Privacy Policy is available for perusal at all times. Should there be any changes or amendments to this Privacy Policy, " + e._s(e.app) + " will notify the user by posting the amended version on this site.\n      ")])]), s("div", {
                 staticClass: "doc-description doc-body-item"
@@ -36,7 +36,7 @@
                 staticClass: "doc-description doc-body-item"
             }, [s("b", [e._v("3. Advertisements shown in " + e._s(e.app))]), s("br"), s("p", {
                 staticClass: "indent-one"
-            }, [e._v(e._s(e.app) + " may contain advertisements from companies other than Supergene that may link to their own websites, online services, or mobile applications. Supergene is not responsible for the privacy practices or the content of these services from the advertisements. If you have any question about how these services use your information, you should review their policies, and contact them directly.\n      ")])]), s("div", {
+            }, [e._v(e._s(e.app) + " may contain advertisements from companies other than AMG that may link to their own websites, online services, or mobile applications. AMG is not responsible for the privacy practices or the content of these services from the advertisements. If you have any question about how these services use your information, you should review their policies, and contact them directly.\n      ")])]), s("div", {
                 staticClass: "doc-description doc-body-item"
             }, [s("b", [e._v("4. Push Notifications")]), s("br"), e._m(8), s("p", {
                 staticClass: "indent-one"
@@ -64,7 +64,7 @@
                     "margin-left": "20px",
                     "font-weight": "400"
                 }
-            }, [e._v("E-mail: " + e._s(e.app) + "@supergene.co")])])])]), s("br"), e._m(12), s("br"), s("br"), s("br")])
+            }, [e._v("E-mail: awesome@anhminhltd.com")])])])]), s("br"), e._m(12), s("br"), s("br"), s("br")])
         }
             , o = [function() {
             var e = this
@@ -72,9 +72,9 @@
                 , s = e._self._c || t;
             return s("div", {
                 staticClass: "doc-description doc-body-item"
-            }, [s("b", [e._v("1. How does Supergene protect my privacy? ")]), s("br"), s("p", {
+            }, [s("b", [e._v("1. How does AMG protect my privacy? ")]), s("br"), s("p", {
                 staticClass: "indent-one"
-            }, [e._v("We, MAG Inc., understand the importance of your privacy. This Privacy Policy is designed to inform you on\n        how we use the information we collect and how we protect your data. We "), s("b", [e._v("DO NOT STORE")]), e._v(" any personal information,\n        and we "), s("b", [e._v("DO NOT SELL")]), e._v(" your data to any third-party company.\n      ")])])
+            }, [e._v("We, AMG Inc., understand the importance of your privacy. This Privacy Policy is designed to inform you on\n        how we use the information we collect and how we protect your data. We "), s("b", [e._v("DO NOT STORE")]), e._v(" any personal information,\n        and we "), s("b", [e._v("DO NOT SELL")]), e._v(" your data to any third-party company.\n      ")])])
         }
             , function() {
                 var e = this
@@ -184,7 +184,7 @@
                     , s = e._self._c || t;
                 return s("div", {
                     staticClass: "doc-description doc-body-item"
-                }, [s("b", [e._v("Effective Date: November 13, 2018")]), s("br")])
+                }, [s("b", [e._v("Effective Date: May 10, 2019")]), s("br")])
             }
         ]
             , a = s("cebc")

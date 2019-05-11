@@ -12,7 +12,7 @@
                 staticClass: "doc-header"
             }, [n("h5", [e._v("Terms of Service")]), n("p", {
                 staticClass: "doc-description"
-            }, [e._v("\n      We’d like to extend our gratitude for taking the time to look through our application (called “" + e._s(e.app) + "”)\n      and browse our content. Supergene, Inc. (known henceforth as “the Company”) provide the services of the application. These\n      are our Terms of Service (called “Terms”). Having made use of the content on the application means that you consent to the\n      “Terms of Service” presented here. If you do not agree with any of the terms or are not able to do so, it would be advisable to\n      discontinue your use of the application.\n    ")])]), n("div", [n("div", {
+            }, [e._v("\n      We’d like to extend our gratitude for taking the time to look through our application (called “" + e._s(e.app) + "”)\n      and browse our content. AMG, Inc. (known henceforth as “the Company”) provide the services of the application. These\n      are our Terms of Service (called “Terms”). Having made use of the content on the application means that you consent to the\n      “Terms of Service” presented here. If you do not agree with any of the terms or are not able to do so, it would be advisable to\n      discontinue your use of the application.\n    ")])]), n("div", [n("div", {
                 staticClass: "doc-body-item"
             }, [n("h6", [e._v("Article I (Purpose)")]), n("p", {
                 staticClass: "doc-description"

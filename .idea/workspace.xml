@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d6caea-69c9-4e73-a778-d3bc27bddc5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/cms-server/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/fetch-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/fetch-server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/bounce.23874342.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/chunk-privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/chunk-privacy-policy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/chunk-terms-of-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/chunk-terms-of-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omg/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/omg/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omg/img/:Users:minh:Desktop:ezlife:omg-instant-reference:backend:cms-server:dist:static:js:manifest.3ad1d5771e9b13dbdad2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omg/img/bounce.23874342.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omg/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/omg/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,103 +28,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/index.html">
+        <entry file="file://$PROJECT_DIR$/omg/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="263">
+              <caret line="1683" column="38" selection-start-line="1683" selection-start-column="38" selection-end-line="1683" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/app.0d5c111aca1f8acce412.js">
+        <entry file="file://$PROJECT_DIR$/omg/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="61" column="79" lean-forward="true" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
+            <state relative-caret-position="239">
+              <caret line="170" column="67" selection-start-line="170" selection-start-column="67" selection-end-line="170" selection-end-column="67" />
+              <folding>
+                <element signature="e#701#1944#1" expanded="true" />
+                <element signature="e#49619#51886#2" expanded="true" />
+                <element signature="e#52414#55033#2" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/forward-server/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/make.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/run-dist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="48" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/run-mock.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/common.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tasks/upload.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/replace-sdk.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/omg/js/chunk-privacy-policy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/omg/js/chunk-terms-of-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fetchAndSaveHomeContent</find>
-      <find>DELETE</find>
-      <find>pop</find>
-      <find>.head</find>
-      <find>Promise.all</find>
-      <find>AKIAQ66MJL7IRQSJACOQ</find>
-      <find>done</find>
-      <find>upload</find>
-      <find>/view</find>
-      <find>tr</find>
-      <find>dom:</find>
-      <find>console.log</find>
-      <find>bucket</find>
-      <find>size</find>
-      <find>100</find>
-      <find>has asl</find>
-      <find>.catch</find>
-      <find>uploadFile</find>
-      <find>s3</find>
-      <find>s3</find>
       <find>download media</find>
       <find>.on</find>
       <find>media</find>
@@ -122,9 +88,29 @@
       <find>getFileNameFromUrl</find>
       <find>split</find>
       <find>/static</find>
-      <find>localhost:4000</find>
       <find>http://localhost:4000</find>
       <find>SET_ME</find>
+      <find>pick</find>
+      <find>9339aaab</find>
+      <find>bounce.</find>
+      <find>.png</find>
+      <find>localhost:4000</find>
+      <find>MAG Inc</find>
+      <find>SUPER</find>
+      <find>2018</find>
+      <find>.co</find>
+      <find>domain</find>
+      <find>Supere</find>
+      <find>Supergene</find>
+      <find>AMG</find>
+      <find>OMG</find>
+      <find>#000</find>
+      <find>.{</find>
+      <find>}.</find>
+      <find>QUEEN</find>
+      <find>}#</find>
+      <find>}@</find>
+      <find>174</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -133,6 +119,10 @@
       <replace>&quot;Awesome&quot;</replace>
       <replace>MAG Inc</replace>
       <replace>https://omg-server.herokuapp.com</replace>
+      <replace>localhost:3000</replace>
+      <replace>AMG Inc</replace>
+      <replace>AnhMinh</replace>
+      <replace>AMG</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,26 +138,28 @@
         <option value="$PROJECT_DIR$/omg/js/chunk-2d21e955.8ba2486d.js" />
         <option value="$PROJECT_DIR$/omg/index.html" />
         <option value="$PROJECT_DIR$/forward-server/index.js" />
-        <option value="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" />
-        <option value="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" />
-        <option value="$PROJECT_DIR$/omg/js/app.js" />
         <option value="$PROJECT_DIR$/backend/fetch-server/category.js" />
         <option value="$PROJECT_DIR$/backend/api-server/index.js" />
         <option value="$PROJECT_DIR$/backend/fetch-server/index.js" />
         <option value="$PROJECT_DIR$/backend/cms-server/dist" />
         <option value="$PROJECT_DIR$/backend/cms-server/dist/index.html" />
         <option value="$PROJECT_DIR$/backend/cms-server/dist/static/js/app.0d5c111aca1f8acce412.js" />
+        <option value="$PROJECT_DIR$/build/css/app.css" />
+        <option value="$PROJECT_DIR$/omg/js/app.js" />
+        <option value="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" />
+        <option value="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" />
+        <option value="$PROJECT_DIR$/omg/css/app.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1680" />
-    <option name="y" value="-693" />
-    <option name="width" value="1440" />
-    <option name="height" value="2537" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,87 +167,70 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
+              <item name="archives" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="cms-server" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="cms-server" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="cms-server" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="cms-server" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="forward-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
               <item name="omg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
               <item name="omg" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="omg-instant-reference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg-instant-reference" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
+              <item name="omg" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
+              <item name="omg" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557310497314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557535813517" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -268,6 +243,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/omg/img" />
+      <recent name="$PROJECT_DIR$/omg/fonts" />
+      <recent name="$PROJECT_DIR$/build/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -283,11 +261,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="fetch-server - index.js" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/backend/fetch-server">
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -300,25 +273,26 @@
       <updated>1555743815105</updated>
       <workItem from="1555743818192" duration="13658000" />
       <workItem from="1556957012339" duration="34912000" />
+      <workItem from="1557413736338" duration="6939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48570000" />
+    <option name="totallyTimeSpent" value="55509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="-693" width="1440" height="2537" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="972" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.29613733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.21794872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.500846" side_tool="true" weight="0.24969475" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2324263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -327,8 +301,9 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.14723927" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.36704546" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -400,13 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forward-server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-server/index.js" />
     <entry file="file://$PROJECT_DIR$/omg/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -414,20 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/fetch-server/node_modules/mongodb/lib/mongo_client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omg/js/chunk-terms-of-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="117" selection-start-line="14" selection-start-column="117" selection-end-line="14" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/fetch-server/node_modules/mongodb/lib/mongo_client.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -435,41 +391,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/fetch-server/node_modules/request-promise/lib/rp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omg/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13011">
-          <caret line="1553" column="51" selection-start-line="1553" selection-start-column="51" selection-end-line="1553" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omg/js/chunk-privacy-policy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="199" selection-start-line="38" selection-start-column="199" selection-end-line="38" selection-end-column="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/fetch-server/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forward-server/node_modules/@types/node/fs.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="1719" column="13" selection-start-line="1719" selection-start-column="13" selection-end-line="1719" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/fetch-server/node_modules/request-promise/lib/rp.js" />
+    <entry file="file://$PROJECT_DIR$/backend/fetch-server/category.js" />
+    <entry file="file://$PROJECT_DIR$/backend/forward-server/node_modules/@types/node/fs.d.ts" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -477,71 +401,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-server/index.js">
+    <entry file="file://$PROJECT_DIR$/backend/api-server/index.js" />
+    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist" />
+    <entry file="file://$PROJECT_DIR$/backend/fetch-server/index.js" />
+    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/vendor.87941e09acaea9b6f60d.js" />
+    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/manifest.3ad1d5771e9b13dbdad2.js" />
+    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/app.0d5c111aca1f8acce412.js" />
+    <entry file="file://$PROJECT_DIR$/backend/forward-server/node_modules/request-promise-core/lib/errors.js" />
+    <entry file="file://$PROJECT_DIR$/backend/forward-server/index.js" />
+    <entry file="file://$PROJECT_DIR$/tasks/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="100">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/fetch-server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="238" column="23" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/vendor.87941e09acaea9b6f60d.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="25" column="12426" selection-start-line="25" selection-start-column="12426" selection-end-line="25" selection-end-column="12426" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/manifest.3ad1d5771e9b13dbdad2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cms-server/dist/static/js/app.0d5c111aca1f8acce412.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="61" column="79" lean-forward="true" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forward-server/node_modules/request-promise-core/lib/errors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forward-server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/tasks/common.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/run-mock.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/run-dist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/make.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,23 +440,64 @@
     <entry file="file://$PROJECT_DIR$/tasks/replace-sdk.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/run-dist.js">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/bounce.23874342.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="48" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#875#894#1" expanded="true" />
+            <element signature="e#32605#32624#1" expanded="true" />
+            <element signature="e#35489#35508#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/run-mock.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/common.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/upload.js">
+    <entry file="file://$PROJECT_DIR$/omg/js/chunk-privacy-policy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="316">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omg/js/chunk-terms-of-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omg/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="1683" column="38" selection-start-line="1683" selection-start-column="38" selection-end-line="1683" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omg/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="170" column="67" selection-start-line="170" selection-start-column="67" selection-end-line="170" selection-end-column="67" />
+          <folding>
+            <element signature="e#701#1944#1" expanded="true" />
+            <element signature="e#49619#51886#2" expanded="true" />
+            <element signature="e#52414#55033#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
