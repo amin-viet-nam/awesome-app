@@ -4,17 +4,11 @@
     <list default="true" id="57d6caea-69c9-4e73-a778-d3bc27bddc5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bounce.23874342.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/chunk-privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/chunk-privacy-policy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/chunk-terms-of-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/chunk-terms-of-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omg/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/omg/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omg/img/:Users:minh:Desktop:ezlife:omg-instant-reference:backend:cms-server:dist:static:js:manifest.3ad1d5771e9b13dbdad2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/omg/img/bounce.23874342.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/8a72da70-61f7-11e9-96e8-9988a0c2706f.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/a9e2e390-6252-11e9-a651-a9e824b15f00.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/aa222390-625f-11e9-ac1f-c7dacce5fc67.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/b1a37f60-6287-11e9-a44a-99a3c5f13978.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/omg/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/omg/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omg/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="1683" column="38" selection-start-line="1683" selection-start-column="38" selection-end-line="1683" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="1418" column="91" lean-forward="true" selection-start-line="1418" selection-start-column="91" selection-end-line="1418" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -50,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -81,10 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>download media</find>
-      <find>.on</find>
-      <find>media</find>
-      <find>mediaPath</find>
       <find>getFileNameFromUrl</find>
       <find>split</find>
       <find>/static</find>
@@ -111,6 +101,10 @@
       <find>}#</find>
       <find>}@</find>
       <find>174</find>
+      <find>heroku</find>
+      <find>https://omg-server.herokuapp.com/api/</find>
+      <find>https://d1ckjhze1wxie3.cloudfront.net/</find>
+      <find>https://awesome-api.anhminhltd.com/api/</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -123,6 +117,7 @@
       <replace>AMG Inc</replace>
       <replace>AnhMinh</replace>
       <replace>AMG</replace>
+      <replace>https://awesome-api.anhminhltd.com/api/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -145,11 +140,11 @@
         <option value="$PROJECT_DIR$/backend/cms-server/dist/index.html" />
         <option value="$PROJECT_DIR$/backend/cms-server/dist/static/js/app.0d5c111aca1f8acce412.js" />
         <option value="$PROJECT_DIR$/build/css/app.css" />
-        <option value="$PROJECT_DIR$/omg/js/app.js" />
         <option value="$PROJECT_DIR$/omg/js/chunk-privacy-policy.js" />
         <option value="$PROJECT_DIR$/omg/js/chunk-terms-of-service.js" />
         <option value="$PROJECT_DIR$/omg/css/app.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/omg/js/app.js" />
       </list>
     </option>
   </component>
@@ -179,23 +174,6 @@
               <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
               <item name="archives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesome-app" type="b2602c69:ProjectViewProjectNode" />
@@ -230,7 +208,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557535813517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557535976753" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -273,12 +251,12 @@
       <updated>1555743815105</updated>
       <workItem from="1555743818192" duration="13658000" />
       <workItem from="1556957012339" duration="34912000" />
-      <workItem from="1557413736338" duration="6939000" />
+      <workItem from="1557413736338" duration="7179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55509000" />
+    <option name="totallyTimeSpent" value="55749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
@@ -461,24 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omg/js/chunk-privacy-policy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/omg/js/chunk-terms-of-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omg/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="1683" column="38" selection-start-line="1683" selection-start-column="38" selection-end-line="1683" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -496,8 +460,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omg/js/chunk-privacy-policy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omg/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1418" column="91" lean-forward="true" selection-start-line="1418" selection-start-column="91" selection-end-line="1418" selection-end-column="91" />
         </state>
       </provider>
     </entry>

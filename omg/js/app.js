@@ -1416,12 +1416,12 @@
             Ie = n.n(Ce),
             Ae = "production",
             xe = "http://localhost:3000/api/";
-        location.hostname.startsWith("localhost") ? Ae = "local" : location.hostname.startsWith("apps-2182009512040623") && (Ae = "test"), "local" !== Ae && (xe = "https://omg-server.herokuapp.com/api/");
+        location.hostname.startsWith("localhost") ? Ae = "local" : location.hostname.startsWith("apps-2182009512040623") && (Ae = "test"), "local" !== Ae && (xe = "https://awesome-api.anhminhltd.com/api/");
         var je = Ie.a.create({
             baseURL: xe,
             timeout: 5e3
         });
-        xe = "local" === Ae ? "http://localhost:3000/api/" : "test" === Ae ? "https://omg-server.herokuapp.com/api/" : "https://d1ckjhze1wxie3.cloudfront.net/";
+        xe = "local" === Ae ? "http://localhost:3000/api/" : "test" === Ae ? "https://awesome-api.anhminhltd.com/api/" : "https://awesome-api.anhminhltd.com/api/";
         var $e = Ie.a.create({
                 baseURL: xe,
                 timeout: 8e3
