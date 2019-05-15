@@ -17,10 +17,16 @@ module.exports = function (gulp, config, commandLineArguments) {
           *  project into it, together with common files
           *
           */
-    gulp.task('make', ['common', 'obfuscate-js'], function () {
+    gulp.task('make', ['common'], function () {
         const projectFolder = 'omg';
 
-        return gulp.src([`${projectFolder}/**/*`, `!${projectFolder}/**/js/*`], {base: projectFolder})
+        gulp.src([`${projectFolder}/**/*`, `!${projectFolder}/**/js/*`], {base: projectFolder})
+            .pipe(gulp.dest(config.outputFolder));
+
+        return gulp.src(`${projectFolder}/**/js/*`, {base: projectFolder})
+            .pipe(javascriptObfuscator({
+                compact: true
+            }))
             .pipe(gulp.dest(config.outputFolder));
     });
 };
