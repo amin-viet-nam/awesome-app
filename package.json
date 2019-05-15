@@ -12,6 +12,7 @@
   "dependencies": {
     "gulp": "3.9.1",
     "gulp-html-replace": "^1.6.2",
+    "gulp-javascript-obfuscator-fixed": "^1.1.7",
     "gulp-rename": "^1.2.2",
     "gulp-rimraf": "^0.2.2",
     "gulp-webserver": "^0.9.1",

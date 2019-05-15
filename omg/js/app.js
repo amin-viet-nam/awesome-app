@@ -1,4 +1,4 @@
-(function(t) {
+(function (t) {
     function e(e) {
         for (var a, r, o = e[0], c = e[1], l = e[2], u = 0, h = []; u < o.length; u++) r = o[u], i[r] && h.push(i[r][0]), i[r] = 0;
         for (a in c) Object.prototype.hasOwnProperty.call(c, a) && (t[a] = c[a]);
@@ -17,6 +17,7 @@
         }
         return t
     }
+
     var a = {},
         i = {
             app: 0
@@ -36,18 +37,19 @@
         };
         return t[e].call(n.exports, n, n.exports, o), n.l = !0, n.exports
     }
-    o.e = function(t) {
+
+    o.e = function (t) {
         var e = [],
             n = i[t];
         if (0 !== n)
             if (n) e.push(n[2]);
             else {
-                var a = new Promise(function(e, a) {
+                var a = new Promise(function (e, a) {
                     n = i[t] = [e, a]
                 });
                 e.push(n[2] = a);
                 var s, c = document.createElement("script");
-                c.charset = "utf-8", c.timeout = 120, o.nc && c.setAttribute("nonce", o.nc), c.src = r(t), s = function(e) {
+                c.charset = "utf-8", c.timeout = 120, o.nc && c.setAttribute("nonce", o.nc), c.src = r(t), s = function (e) {
                     c.onerror = c.onload = null, clearTimeout(l);
                     var n = i[t];
                     if (0 !== n) {
@@ -60,26 +62,27 @@
                         i[t] = void 0
                     }
                 };
-                var l = setTimeout(function() {
+                var l = setTimeout(function () {
                     s({
                         type: "timeout",
                         target: c
                     })
                 }, 12e4);
                 c.onerror = c.onload = s, document.head.appendChild(c)
-            } return Promise.all(e)
-    }, o.m = t, o.c = a, o.d = function(t, e, n) {
+            }
+        return Promise.all(e)
+    }, o.m = t, o.c = a, o.d = function (t, e, n) {
         o.o(t, e) || Object.defineProperty(t, e, {
             enumerable: !0,
             get: n
         })
-    }, o.r = function(t) {
+    }, o.r = function (t) {
         "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(t, Symbol.toStringTag, {
             value: "Module"
         }), Object.defineProperty(t, "__esModule", {
             value: !0
         })
-    }, o.t = function(t, e) {
+    }, o.t = function (t, e) {
         if (1 & e && (t = o(t)), 8 & e) return t;
         if (4 & e && "object" === typeof t && t && t.__esModule) return t;
         var n = Object.create(null);
@@ -87,20 +90,20 @@
             enumerable: !0,
             value: t
         }), 2 & e && "string" != typeof t)
-            for (var a in t) o.d(n, a, function(e) {
+            for (var a in t) o.d(n, a, function (e) {
                 return t[e]
             }.bind(null, a));
         return n
-    }, o.n = function(t) {
-        var e = t && t.__esModule ? function() {
+    }, o.n = function (t) {
+        var e = t && t.__esModule ? function () {
             return t["default"]
-        } : function() {
+        } : function () {
             return t
         };
         return o.d(e, "a", e), e
-    }, o.o = function(t, e) {
+    }, o.o = function (t, e) {
         return Object.prototype.hasOwnProperty.call(t, e)
-    }, o.p = "", o.oe = function(t) {
+    }, o.p = "", o.oe = function (t) {
         throw console.error(t), t
     };
     var c = window["webpackJsonp"] = window["webpackJsonp"] || [],
@@ -110,50 +113,60 @@
     var d = l;
     s.push([0, "chunk-vendors"]), n()
 })({
-    0: function(t, e, n) {
+    0: function (t, e, n) {
         t.exports = n("56d7")
     },
-    "02a4": function(t, e, n) {},
-    "05c5": function(t, e, n) {},
-    1054: function(t, e, n) {},
-    "1e17": function(t, e, n) {},
-    "201a": function(t, e, n) {
+    "02a4": function (t, e, n) {
+    },
+    "05c5": function (t, e, n) {
+    },
+    1054: function (t, e, n) {
+    },
+    "1e17": function (t, e, n) {
+    },
+    "201a": function (t, e, n) {
         "use strict";
         var a = n("02a4"),
             i = n.n(a);
         i.a
     },
-    "20d0": function(t, e, n) {
+    "20d0": function (t, e, n) {
         "use strict";
         var a = n("d2d4"),
             i = n.n(a);
         i.a
     },
-    "28ab": function(t, e, n) {
+    "28ab": function (t, e, n) {
         "use strict";
         var a = n("2f7a"),
             i = n.n(a);
         i.a
     },
-    "28f2": function(t, e, n) {
+    "28f2": function (t, e, n) {
         "use strict";
         var a = n("f911"),
             i = n.n(a);
         i.a
     },
-    "2f7a": function(t, e, n) {},
-    3174: function(t, e, n) {},
-    "34d0": function(t, e, n) {},
-    "38c3": function(t, e, n) {},
-    4250: function(t, e, n) {
+    "2f7a": function (t, e, n) {
+    },
+    3174: function (t, e, n) {
+    },
+    "34d0": function (t, e, n) {
+    },
+    "38c3": function (t, e, n) {
+    },
+    4250: function (t, e, n) {
         "use strict";
         var a = n("34d0"),
             i = n.n(a);
         i.a
     },
-    "4a7d": function(t, e, n) {},
-    "514a": function(t, e, n) {},
-    "56d7": function(t, e, n) {
+    "4a7d": function (t, e, n) {
+    },
+    "514a": function (t, e, n) {
+    },
+    "56d7": function (t, e, n) {
         "use strict";
         n.r(e);
         n("57e7"), n("1c01"), n("cadf"), n("551c"), n("f751"), n("097d");
@@ -168,7 +181,7 @@
             d = n.n(u),
             h = n("3652"),
             m = n.n(h),
-            f = function() {
+            f = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -201,7 +214,7 @@
             g = [],
             p = (n("7f7f"), n("cebc")),
             v = n("2f62"),
-            T = function() {
+            T = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -222,7 +235,7 @@
             S = (n("28ab"), n("2877")),
             w = Object(S["a"])(y, T, E, !1, null, null, null),
             O = w.exports,
-            N = function() {
+            N = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -248,14 +261,14 @@
                     staticClass: "menu"
                 }, [n("div", [n("div", {
                     staticClass: "language"
-                }, [n("ul", t._l(t.languages, function(e, a) {
+                }, [n("ul", t._l(t.languages, function (e, a) {
                     return n("li", {
                         key: e.value,
                         class: {
                             selected: e.value === t.language, last: a === t.languages.length - 1
                         },
                         on: {
-                            click: function(n) {
+                            click: function (n) {
                                 return t.select(e.value)
                             }
                         }
@@ -283,10 +296,10 @@
             I = {
                 computed: Object(p["a"])({}, Object(v["d"])(["languages", "language", "open", "contents", "content"])),
                 methods: Object(p["a"])({
-                    toggleMenu: function() {
+                    toggleMenu: function () {
                         this.SET_OPEN(!this.open)
                     },
-                    goTop: function() {
+                    goTop: function () {
                         this.open ? this.toggleMenu() : (this.$router.push({
                             name: "home"
                         }), window.scrollTo({
@@ -294,7 +307,7 @@
                             behavior: "smooth"
                         }))
                     },
-                    select: function(t) {
+                    select: function (t) {
                         this.language !== t && (this.toggleMenu(), window.scrollTo(0, 0), this.SET_LANGUAGE(t))
                     }
                 }, Object(v["b"])(["SET_LANGUAGE"]), Object(v["c"])(["SET_OPEN"]))
@@ -302,13 +315,13 @@
             A = I,
             x = (n("201a"), Object(S["a"])(A, N, C, !1, null, null, null)),
             j = x.exports,
-            $ = function() {
+            $ = function () {
                 var t = this,
                     e = t.$createElement;
                 t._self._c;
                 return t._m(0)
             },
-            M = [function() {
+            M = [function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -321,13 +334,13 @@
             q = (n("cb13"), {}),
             D = Object(S["a"])(q, $, M, !1, null, null, null),
             k = D.exports,
-            z = function() {
+            z = function () {
                 var t = this,
                     e = t.$createElement;
                 t._self._c;
                 return t._m(0)
             },
-            R = [function() {
+            R = [function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -347,18 +360,18 @@
                 2006683636095963: 4620
             },
             H = {
-                data: function() {
+                data: function () {
                     return {
                         game: !1,
                         initCount: 0
                     }
                 },
                 computed: Object(p["a"])({}, Object(v["d"])(["status", "loading", "bounce", "contents", "content", "reload", "open", "language", "init", "app", "test"])),
-                created: function() {
+                created: function () {
                     this.inititalize()
                 },
                 watch: {
-                    $route: function() {
+                    $route: function () {
                         if (window.scrollTo(0, 0), this.SET_OPEN(!1), "content" !== this.$route.name) {
                             if ("home" === this.$route.name && (this.game = !1, !this.init)) return;
                             ga("send", "pageview", this.language + "/" + this.$route.name)
@@ -366,7 +379,7 @@
                     }
                 },
                 methods: Object(p["a"])({
-                    inititalize: function() {
+                    inititalize: function () {
                         var t = this;
                         if (this.initCount += 1, ga("create", "UA-126885965-1", {
                             sampleRate: 1
@@ -395,20 +408,20 @@
                                 },
                                 replace: !0
                             });
-                            this.SET_ME(), this.$Lazyload.$on("loaded", function(t) {
+                            this.SET_ME(), this.$Lazyload.$on("loaded", function (t) {
                                 var e = t.el;
-                                i.a.delay(function() {
+                                i.a.delay(function () {
                                     e.parentElement.style.background = "none"
                                 }, 500)
-                            }), EventBus.$on("set:language", function(e) {
+                            }), EventBus.$on("set:language", function (e) {
                                 t.$root.$i18n.locale = e
                             }), EventBus.$on("reload", this.inititalize)
                         }
-                        this.INIT(function() {
+                        this.INIT(function () {
                             t.SET_CONTENTS()
                         })
                     },
-                    closeMenu: function() {
+                    closeMenu: function () {
                         this.open && this.SET_OPEN(!1)
                     }
                 }, Object(v["b"])(["INIT", "SET_CONTENTS", "ADD_REFERER", "SET_RECOMMEND"]), Object(v["c"])(["SET_STATUS", "SET_ME", "SET_LANGUAGE", "SET_SESSION_DATA", "SET_OPEN", "SET_OPEN", "SET_BOUNCE", "RESET_CONTENTS", "SET_LOADING", "SET_NOTIFICATION"])),
@@ -422,7 +435,7 @@
             L = H,
             W = (n("5c0b"), Object(S["a"])(L, f, g, !1, null, null, null)),
             V = W.exports,
-            Q = function() {
+            Q = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -466,7 +479,7 @@
             },
             J = [],
             K = (n("55dd"), n("6d67"), n("7514"), n("71f1")),
-            Y = function() {
+            Y = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -527,7 +540,7 @@
             X = [],
             Z = (n("6c7b"), n("20d6"), n("d25f"), n("10b3")),
             tt = n.n(Z),
-            et = function() {
+            et = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -568,7 +581,7 @@
             rt = st.exports,
             ot = [],
             ct = {
-                data: function() {
+                data: function () {
                     return {
                         loading: 0,
                         error: !1,
@@ -579,86 +592,87 @@
                     }
                 },
                 computed: Object(p["a"])({}, Object(v["d"])(["content", "me", "hide_shortcut", "app", "pageview"]), {
-                    withoutQuestion: function() {
+                    withoutQuestion: function () {
                         return !this.$parent.hasSelectFriend && i.a.isEmpty(this.content.detail.questions)
                     },
-                    height: function() {
+                    height: function () {
                         return this.result ? "height: " + window.innerWidth * (this.result.media.height / this.result.media.width) + "px" : ""
                     }
                 }),
                 watch: {
-                    content: function() {
+                    content: function () {
                         ot = []
                     }
                 },
-                mounted: function() {
+                mounted: function () {
                     var t = this;
-                    this.refresh(), this.$on("loaded:result", function() {
+                    this.refresh(), this.$on("loaded:result", function () {
                         t.loading -= 1, t.focus()
                     })
                 },
                 methods: Object(p["a"])({
-                    refresh: function() {
-                        clearTimeout(this.delay), this.withoutQuestion ? (this.showResult = !0, this.$nextTick(this.show)) : (this.showResult = !1, this.SET_FRIEND(null), this.content.detail.questions = i.a.map(this.content.detail.questions, function(t) {
+                    refresh: function () {
+                        clearTimeout(this.delay), this.withoutQuestion ? (this.showResult = !0, this.$nextTick(this.show)) : (this.showResult = !1, this.SET_FRIEND(null), this.content.detail.questions = i.a.map(this.content.detail.questions, function (t) {
                             return i.a.omit(t, ["selected", "answer"])
                         }))
                     },
-                    show: function() {
+                    show: function () {
                         var t = this;
                         this.ADD_PAGEVIEW();
-                        var e = function(e) {
+                        var e = function (e) {
                             t.loading = 2;
                             var n = t;
                             clearTimeout(n.delay);
-                            var a = function(t) {
-                                    var e = i.a.filter(t, function(t) {
+                            var a = function (t) {
+                                    var e = i.a.filter(t, function (t) {
                                         return -1 === i.a.indexOf(ot, t.id)
                                     });
                                     return e.length ? e : (ot = [], t)
                                 },
-                                s = function(t) {
+                                s = function (t) {
                                     var e = i.a.reverse(n.content.detail.s),
                                         a = [];
-                                    i.a.each(t, function(t, n) {
+                                    i.a.each(t, function (t, n) {
                                         a.push((a[n - 1] || 0) + e[t.id - 1])
                                     });
                                     var s = i.a.random(0, i.a.last(a));
-                                    return t[i.a.findIndex(a, function(t) {
+                                    return t[i.a.findIndex(a, function (t) {
                                         return t >= s
                                     })]
                                 };
                             if (n.showResult = !0, n.content.detail.questions) {
-                                var r = i.a.map(n.content.detail.questions, function(t) {
+                                var r = i.a.map(n.content.detail.questions, function (t) {
                                         return t.answer ? t.answer : t.answers[t.selected]
                                     }),
                                     o = i.a.fill(Array(n.content.detail.results.length + 1), 0),
                                     c = null;
-                                i.a.each(r, function(t) {
-                                    i.a.isEmpty(t.results) ? c = t : i.a.each(t.results, function(t) {
+                                i.a.each(r, function (t) {
+                                    i.a.isEmpty(t.results) ? c = t : i.a.each(t.results, function (t) {
                                         o[t] += 1
                                     })
                                 });
                                 var l = i.a.max(o);
-                                n.result = s(a(i.a.filter(n.content.detail.results, function(t) {
+                                n.result = s(a(i.a.filter(n.content.detail.results, function (t) {
                                     return o[t.id] === l
                                 }))), c && (n.result.answer = c)
                             } else n.result = s(a(n.content.detail.results));
-                            n.$refs.canvas.show(n.result), "OMG" === n.app && n.$nextTick(function() {
+                            n.$refs.canvas.show(n.result), "OMG" === n.app && n.$nextTick(function () {
                                 new tt.a(n.$refs.loading, {
                                     strings: n.$t("loading_messages"),
                                     showCursor: !1,
                                     typeSpeed: 8
                                 })
-                            }), n.delay = i.a.delay(function() {
+                            }), n.delay = i.a.delay(function () {
                                 n.loading -= 1, e && e(), n.focus()
                             }, 1500)
                         };
-                        this.loading > 0 && (this.reload += 1), i.a.defer(function() {
+                        this.loading > 0 && (this.reload += 1), i.a.defer(function () {
                             t.$parent.$emit("show:ads", e)
                         })
                     },
-                    focus: function() {},
-                    share: function() {
+                    focus: function () {
+                    },
+                    share: function () {
                         if (!(this.loading > 0 || this.$refs.canvas.error)) {
                             var t = this.$refs.wrap.querySelector("canvas");
                             t && this.$parent.$emit("share", t.toDataURL("image/jpeg", .9), this.content.title.text + " #omg", {
@@ -671,19 +685,19 @@
                             })
                         }
                     },
-                    tryAgain: function() {
+                    tryAgain: function () {
                         this.result && ot.push(this.result.id), this.withoutQuestion ? (window.scrollToHere(this.$el), this.refresh()) : (window.scrollTo({
                             top: 0,
                             behavior: "smooth"
-                        }), this.content.detail.questions = i.a.map(this.content.detail.questions, function(t) {
+                        }), this.content.detail.questions = i.a.map(this.content.detail.questions, function (t) {
                             return i.a.omit(t, ["selected"])
                         }), this.showResult = !1)
                     },
-                    installApp: function() {
+                    installApp: function () {
                         var t = this;
-                        FBInstant.createShortcutAsync().then(function() {
+                        FBInstant.createShortcutAsync().then(function () {
                             t.SET_SHORTCUT(!0)
-                        }).catch(function(e) {
+                        }).catch(function (e) {
                             t.SET_NOTIFICATION(e.message)
                         })
                     }
@@ -695,7 +709,7 @@
             lt = ct,
             ut = (n("aada"), Object(S["a"])(lt, Y, X, !1, null, null, null)),
             dt = ut.exports,
-            ht = function() {
+            ht = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -713,20 +727,20 @@
             },
             mt = [],
             ft = {
-                mounted: function() {
+                mounted: function () {
                     var t = this;
-                    EventBus.$on("close:game", function() {
+                    EventBus.$on("close:game", function () {
                         t.$router.go(-1)
                     })
                 },
-                destroyed: function() {
+                destroyed: function () {
                     EventBus.$off("close:game")
                 }
             },
             gt = ft,
             pt = (n("bb9a"), Object(S["a"])(gt, ht, mt, !1, null, null, null)),
             _t = pt.exports,
-            vt = function() {
+            vt = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -749,14 +763,14 @@
                     attrs: {
                         "data-grid": ""
                     }
-                }, [t._l(t.contents.slice(0, 2), function(t) {
+                }, [t._l(t.contents.slice(0, 2), function (t) {
                     return n("content-item", {
                         key: t.id + (t.recommend ? "r" : ""),
                         attrs: {
                             content: t
                         }
                     })
-                }), t.contents.length > 0 && t.canPromo ? n("promo-item") : t._e(), t._l(t.contents.slice(2), function(t) {
+                }), t.contents.length > 0 && t.canPromo ? n("promo-item") : t._e(), t._l(t.contents.slice(2), function (t) {
                     return n("content-item", {
                         key: t.id + (t.recommend ? "r" : ""),
                         attrs: {
@@ -776,7 +790,7 @@
             Tt = [],
             Et = n("487a"),
             bt = n.n(Et),
-            yt = function() {
+            yt = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -841,13 +855,13 @@
                     }
                 },
                 computed: Object(p["a"])({
-                    label: function() {
+                    label: function () {
                         return "promo" === this.content.type ? "🎮Game" : this.content.recommend ? "👍" + this.$t("recommend") : this.content.is_new || this.content.pick ? "😍" + this.$t("hot") : this.content.trending ? "🔥" + this.$t("trending") : null
                     },
-                    type: function() {
+                    type: function () {
                         return "banner";
                     },
-                    media: function() {
+                    media: function () {
                         return this.content.title.media.src
                     }
                 }, Object(v["d"])({
@@ -857,18 +871,18 @@
                     test: "test",
                     id: "id"
                 })),
-                mounted: function() {
+                mounted: function () {
                     var t = this.content.title.media,
                         e = t.height / t.width * 100;
                     this.$refs.wrap.style.paddingTop = e + "%"
                 },
                 methods: Object(p["a"])({
-                    goDetail: function() {
+                    goDetail: function () {
                         var t = this;
                         "promo" === this.content.type ? FBInstant.switchGameAsync(this.content.detail.id, {
                             data: this.content.detail.data,
                             from: this.id
-                        }).catch(function(e) {
+                        }).catch(function (e) {
                             "USER_INPUT" !== e.code && t.SET_NOTIFICATION(e.message)
                         }) : this._content.id !== this.content.id && this.$router.push({
                             name: "content",
@@ -883,7 +897,7 @@
             Ot = wt,
             Nt = (n("d769"), Object(S["a"])(Ot, yt, St, !1, null, null, null)),
             Ct = Nt.exports,
-            It = function() {
+            It = function () {
                 var t = this,
                     e = t.$createElement,
                     a = t._self._c || e;
@@ -916,12 +930,12 @@
             At = [],
             xt = {
                 methods: {
-                    play: function() {
+                    play: function () {
                         FBInstant.switchGameAsync("369180963635208", {
                             referer: "OMG"
-                        }).then(function() {
+                        }).then(function () {
                             FBInstant.logEvent("lightning_slot_promo_success", 1)
-                        }).catch(function() {
+                        }).catch(function () {
                             FBInstant.logEvent("lightning_slot_promo_fail", 1)
                         })
                     }
@@ -931,7 +945,7 @@
             $t = (n("20d0"), Object(S["a"])(jt, It, At, !1, null, null, null)),
             Mt = $t.exports,
             qt = {
-                data: function() {
+                data: function () {
                     return {
                         loading: !1
                     }
@@ -943,14 +957,14 @@
                     }
                 },
                 computed: Object(p["a"])({}, Object(v["d"])(["more_contents", "content", "reset", "app", "language"]), {
-                    canPromo: function() {
+                    canPromo: function () {
                         return "IOS" !== FBInstant.getPlatform() && "ANDROID" !== FBInstant.getPlatform()
                     }
                 }),
                 methods: Object(p["a"])({
-                    loadMore: function() {
+                    loadMore: function () {
                         var t = this;
-                        this.more_contents && (this.loading = !0, this.SET_CONTENTS(function() {
+                        this.more_contents && (this.loading = !0, this.SET_CONTENTS(function () {
                             t.loading = !1
                         }))
                     }
@@ -966,13 +980,13 @@
             Dt = qt,
             kt = (n("e4cc"), Object(S["a"])(Dt, vt, Tt, !1, null, null, null)),
             zt = kt.exports,
-            Rt = function() {
+            Rt = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("ul", {
                     staticClass: "list-question"
-                }, t._l(t.questions, function(t, e) {
+                }, t._l(t.questions, function (t, e) {
                     return n("question-item", {
                         key: e,
                         ref: "question-" + e,
@@ -984,7 +998,7 @@
                 }), 1)
             },
             Pt = [],
-            Bt = function() {
+            Bt = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -1009,7 +1023,7 @@
                         value: t.question.answer
                     },
                     on: {
-                        input: function(e) {
+                        input: function (e) {
                             e.target.composing || t.$set(t.question, "answer", e.target.value)
                         }
                     }
@@ -1025,7 +1039,7 @@
                 })], 1)
             },
             Ft = [],
-            Gt = function() {
+            Gt = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -1034,7 +1048,7 @@
                     class: [{
                         answered: t._.isNumber(t.selected)
                     }, t.type]
-                }, t._l(t.question.answers, function(e, a) {
+                }, t._l(t.question.answers, function (e, a) {
                     return n("answer-item", {
                         key: a,
                         class: {
@@ -1048,7 +1062,7 @@
                 }), 1)
             },
             Ut = [],
-            Ht = function() {
+            Ht = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -1082,7 +1096,7 @@
                     }
                 },
                 methods: {
-                    select: function() {
+                    select: function () {
                         this.$parent.$emit("select", this.index)
                     }
                 }
@@ -1091,7 +1105,7 @@
             Qt = (n("9da7"), Object(S["a"])(Vt, Ht, Lt, !1, null, null, null)),
             Jt = Qt.exports,
             Kt = {
-                data: function() {
+                data: function () {
                     return {
                         selected: void 0
                     }
@@ -1103,17 +1117,17 @@
                     }
                 },
                 computed: {
-                    type: function() {
+                    type: function () {
                         return i.a.isEmpty(this.question.answers[0].media) ? "text" : this.question.answers.length % 3 ? "image-2" : "image-3"
                     }
                 },
-                mounted: function() {
+                mounted: function () {
                     var t = this;
-                    this.$on("select", function(e) {
+                    this.$on("select", function (e) {
                         t.selected = e, t.question.selected = e, t.$parent.$parent.$emit("next")
                     })
                 },
-                updated: function() {
+                updated: function () {
                     this.selected = this.question.selected
                 },
                 components: {
@@ -1131,15 +1145,15 @@
                     }
                 },
                 computed: {
-                    type: function() {
+                    type: function () {
                         return this.question.answers[0].media ? this.question.answers.length % 3 ? "image-2" : "image-3" : "text"
                     }
                 },
                 methods: {
-                    focus: function() {
+                    focus: function () {
                         window.scrollToHere(this.$el)
                     },
-                    next: function() {
+                    next: function () {
                         _.isEmpty(this.question.answer) || (this.question.answer = this.question.answer.charAt(0).toUpperCase() + this.question.answer.slice(1), this.$parent.$emit("next"))
                     }
                 },
@@ -1157,13 +1171,14 @@
                         required: !0
                     }
                 },
-                mounted: function() {
+                mounted: function () {
                     var t = this,
                         e = this;
-                    this.$on("next", function() {
-                        var n = i.a.findIndex(e.questions, function(t) {
+                    this.$on("next", function () {
+                        var n = i.a.findIndex(e.questions, function (t) {
                             return void 0 === t.selected && !t.answer
-                        }); - 1 !== n ? e.$refs["question-" + n][0].focus() : t.$parent.$emit("go:result")
+                        });
+                        -1 !== n ? e.$refs["question-" + n][0].focus() : t.$parent.$emit("go:result")
                     })
                 },
                 methods: {},
@@ -1174,7 +1189,7 @@
             se = ie,
             re = (n("e0b6"), Object(S["a"])(se, Rt, Pt, !1, null, null, null)),
             oe = re.exports,
-            ce = function() {
+            ce = function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -1187,7 +1202,7 @@
                     class: {
                         touch: t.touch
                     }
-                }, t._l(t.friends, function(e, a) {
+                }, t._l(t.friends, function (e, a) {
                     return n("li", {
                         key: a,
                         staticClass: "item-friend",
@@ -1199,7 +1214,7 @@
                             friend: e
                         },
                         on: {
-                            click: function(n) {
+                            click: function (n) {
                                 return t.selectFriend(e, a)
                             }
                         }
@@ -1212,7 +1227,7 @@
             },
             le = [],
             ue = {
-                data: function() {
+                data: function () {
                     return {
                         selected: void 0
                     }
@@ -1224,12 +1239,12 @@
                     }
                 },
                 computed: Object(p["a"])({
-                    touch: function() {
+                    touch: function () {
                         return "WEB" !== FBInstant.getPlatform()
                     }
                 }, Object(v["d"])(["friends"])),
                 methods: Object(p["a"])({
-                    selectFriend: function(t, e) {
+                    selectFriend: function (t, e) {
                         this.SET_FRIEND(t), this.selected = e, this.$parent.$emit("go:result", !0)
                     }
                 }, Object(v["c"])(["SET_FRIEND"]))
@@ -1243,42 +1258,42 @@
             _e = null,
             ve = !1,
             Te = 6048e5,
-            Ee = function() {
+            Ee = function () {
                 clearTimeout(fe)
             },
             be = {
-                data: function() {
+                data: function () {
                     return {
                         adsTimeout: !0,
                         ads: !1
                     }
                 },
                 computed: Object(p["a"])({
-                    hasSelectFriend: function() {
-                        var t = i.a.find(i.a.get(this.content, "detail.composes"), function(t) {
+                    hasSelectFriend: function () {
+                        var t = i.a.find(i.a.get(this.content, "detail.composes"), function (t) {
                             return "select_friend_photo" === t.type
                         });
                         return !!t && (t.question || "Pick a Friend")
                     },
-                    tags: function() {
-                        return i.a.map(this.content.tags, function(t) {
+                    tags: function () {
+                        return i.a.map(this.content.tags, function (t) {
                             return "#" + t
                         }).join(" ")
                     },
-                    loadingAndMore: function() {
+                    loadingAndMore: function () {
                         return this.contents.length > 0 && "home" !== this.$route.name
                     }
                 }, Object(v["d"])(["content", "contents", "interstitial", "pageview", "friend", "reject_bot_at", "language"])),
-                created: function() {
+                created: function () {
                     window.addEventListener("scroll", Ee), document.addEventListener("touchstart", Ee)
                 },
-                mounted: function() {
+                mounted: function () {
                     var t = this;
-                    this.$on("go:result", function(e) {
+                    this.$on("go:result", function (e) {
                         if (e && !i.a.isEmpty(t.content.detail.questions)) t.$refs.questions.$emit("next");
                         else {
                             if (t.hasSelectFriend && !t.friend) return void window.scrollToHere(t.$refs.friends.$el);
-                            t.$refs.result.show(), t.$nextTick(function() {
+                            t.$refs.result.show(), t.$nextTick(function () {
                                 window.scrollToHere(t.$refs.result_top)
                             })
                         }
@@ -1286,30 +1301,30 @@
                 },
                 watch: {
                     $route: {
-                        handler: function() {
+                        handler: function () {
                             "home" === this.$route.name && (this.M_SET_CONTENT({}), this.sort())
                         },
                         immediate: !0
                     },
                     "$route.params.id": {
-                        handler: function(t) {
+                        handler: function (t) {
                             t && this.SET_CONTENT(t)
                         },
                         immediate: !0
                     },
-                    content: function() {
+                    content: function () {
                         /*!_.isEmpty(this.content) */
                         this.content.title && (this.$refs.result && this.$refs.result.refresh(), this.SET_BOUNCE(!1), ga("send", "pageview", this.content.language + "/" + (this.content.title.origin || this.content.title.text) + "_" + this.content.id), this.sort(), this.ADD_VIEW(this.content.id), this.SET_RECOMMEND())
                     },
-                    contents: function(t, e) {
+                    contents: function (t, e) {
                         this.contents.length && this.SET_BOUNCE(!1), t.length > 0 && 0 === e.length && (console.log(e.length), this.sort())
                     }
                 },
                 methods: Object(p["a"])({
-                    sort: function() {
+                    sort: function () {
                         0 !== this.contents.length && ("home" === this.$route.name ? this.RESET_CONTENTS(i.a.orderBy(this.contents, ["read", "is_new", "idx"], ["asc", "desc", "asc"])) : this.RESET_CONTENTS(i.a.orderBy(this.contents, ["read", "idx"], ["asc", "asc"])))
                     },
-                    share: function(t, e, n) {
+                    share: function (t, e, n) {
                         var a = this,
                             s = this;
                         "WEB" === FBInstant.getPlatform() && this.SET_LOADING(!0), FBInstant.shareAsync({
@@ -1317,51 +1332,52 @@
                             image: t,
                             text: e,
                             data: n
-                        }).then(function() {
-                            a.SET_LOADING(!1), fe = i.a.delay(function() {
+                        }).then(function () {
+                            a.SET_LOADING(!1), fe = i.a.delay(function () {
                                 window.scrollToHere(a.$refs.more)
-                            }, 800), ve || i.a.delay(function() {
-                                FBInstant.player.canSubscribeBotAsync().then(function(t) {
-                                    t && (s.reject_bot_at && s.reject_bot_at < (new Date).getTime() - Te || !s.reject_bot_at) && FBInstant.player.subscribeBotAsync().then(function() {
+                            }, 800), ve || i.a.delay(function () {
+                                FBInstant.player.canSubscribeBotAsync().then(function (t) {
+                                    t && (s.reject_bot_at && s.reject_bot_at < (new Date).getTime() - Te || !s.reject_bot_at) && FBInstant.player.subscribeBotAsync().then(function () {
                                         FBInstant.player.setDataAsync({
                                             reject_bot_at: !1
                                         })
-                                    }).catch(function() {
+                                    }).catch(function () {
                                         FBInstant.player.setDataAsync({
                                             reject_bot_at: (new Date).getTime()
                                         })
                                     })
                                 })
                             }, 1200), a.PUT_SHARE(a.content.id)
-                        }).catch(function(t) {
+                        }).catch(function (t) {
                             a.SET_LOADING(!1), a.SET_NOTIFICATION(t.message)
                         })
                     },
-                    showAds: function(t) {
+                    showAds: function (t) {
                         var e = this;
-                        this.interstitial.played < Math.ceil(this.pageview / this.interstitial.interval) && this.adsTimeout ? Object(K["parallel"])([function(t) {
-                            _e ? "load" === _e.stage ? _e.ads.loadAsync().then(function() {
+                        this.interstitial.played < Math.ceil(this.pageview / this.interstitial.interval) && this.adsTimeout ? Object(K["parallel"])([function (t) {
+                            _e ? "load" === _e.stage ? _e.ads.loadAsync().then(function () {
                                 t(null)
-                            }).catch(function(e) {
+                            }).catch(function (e) {
                                 t(e)
-                            }) : t(null) : FBInstant.getInterstitialAdAsync(e.interstitial.first).then(function(t) {
+                            }) : t(null) : FBInstant.getInterstitialAdAsync(e.interstitial.first).then(function (t) {
                                 return _e = {
                                     ads: t,
                                     stage: "load"
                                 }, t.loadAsync()
-                            }).then(function() {
+                            }).then(function () {
                                 _e.stage = "show", t(null)
-                            }).catch(function(e) {
+                            }).catch(function (e) {
                                 t(e)
                             })
-                        }, function(e) {
+                        }, function (e) {
                             t(e)
-                        }], function(t) {
-                            t || (e.ads = !0, _e.ads.showAsync().then(function() {
-                                e.adsTimeout = !1, e.interstitial.played += 1, _e = null, clearTimeout(ge), ge = i.a.delay(function() {
+                        }], function (t) {
+                            t || (e.ads = !0, _e.ads.showAsync().then(function () {
+                                e.adsTimeout = !1, e.interstitial.played += 1, _e = null, clearTimeout(ge), ge = i.a.delay(function () {
                                     e.adsTimeout = !0, pe += 2e4
                                 }, pe)
-                            }).catch(function(t) {}).finally(function() {
+                            }).catch(function (t) {
+                            }).finally(function () {
                                 e.ads = !1
                             }))
                         }) : t()
@@ -1369,7 +1385,7 @@
                 }, Object(v["b"])(["SET_CONTENT", "PUT_SHARE", "SET_RECOMMEND", "ADD_VIEW"]), Object(v["c"])(["SET_BOUNCE", "RESET_CONTENTS", "SET_LOADING"]), Object(v["c"])({
                     M_SET_CONTENT: "SET_CONTENT"
                 })),
-                destroyed: function() {
+                destroyed: function () {
                     window.removeEventListener("scroll", Ee), document.removeEventListener("touchstart", Ee)
                 },
                 components: {
@@ -1400,63 +1416,60 @@
                 }, {
                     name: "policy",
                     path: "/policy",
-                    component: function() {
+                    component: function () {
                         return n.e("chunk-privacy-policy").then(n.bind(null, "8815"))
                     }
                 }, {
                     name: "terms",
                     path: "/terms",
-                    component: function() {
+                    component: function () {
                         return n.e("chunk-terms-of-service").then(n.bind(null, "d5d2"))
                     }
                 }]
             }),
             Ne = Oe,
             Ce = (n("28a5"), n("f559"), n("bc3a")),
-            Ie = n.n(Ce),
-            Ae = "production",
-            xe = "http://localhost:3000/api/";
-        location.hostname.startsWith("localhost") ? Ae = "local" : location.hostname.startsWith("apps-2182009512040623") && (Ae = "test"), "local" !== Ae && (xe = "https://awesome-api.anhminhltd.com/api/");
+            Ie = n.n(Ce);
+        let xe = "https://awesome-api-lb.anhminhltd.com/api/";//location.hostname.startsWith("localhost") ? "http://localhost:3000/api/" : "https://awesome-api-lb.anhminhltd.com/api/";
         var je = Ie.a.create({
             baseURL: xe,
             timeout: 5e3
         });
-        xe = "local" === Ae ? "http://localhost:3000/api/" : "test" === Ae ? "https://awesome-api.anhminhltd.com/api/" : "https://awesome-api.anhminhltd.com/api/";
+
         var $e = Ie.a.create({
                 baseURL: xe,
                 timeout: 8e3
             }),
-            Me = function(t, e) {
+            Me = function (t, e) {
                 return -1 !== i.a.findIndex(t.state.languages, {
                     value: e
                 }) ? e : "en"
             },
             qe = {},
             De = 0,
-            ke = function(t) {
+            ke = function (t) {
                 De += 1, 2 === De && (t.dispatch("SET_RECOMMEND"), De = 0)
             };
         window.router = Ne;
         var ze = {
-                INIT: function(t, e) {
-                    FBInstant.player.getDataAsync(["language", "shortcut", "reject_bot_at", "contents"]).then(function(n) {
-                        FBInstant.player.getConnectedPlayersAsync().then(function(e) {
-                            t.commit("SET_FRIENDS", i.a.map(e, function(t) {
+                INIT: function (t, e) {
+                    FBInstant.player.getDataAsync(["language", "shortcut", "reject_bot_at", "contents"]).then(function (n) {
+                        FBInstant.player.getConnectedPlayersAsync().then(function (e) {
+
+                            t.commit("SET_FRIENDS", i.a.map(e, function (t) {
                                 return {
                                     id: t.getID(),
                                     name: t.getName(),
                                     photo: t.getPhoto()
                                 }
-                            })), je.get("content/recommend", {
-                                params: {
-                                    ids: i.a.map(t.state.friends.slice(0, 80), "id")
-                                }
-                            }).then(function(e) {
+                            })), je.post("content/recommend", JSON.stringify({
+                                ids: i.a.map(t.state.friends, "id")
+                            })).then(function (e) {
                                 t.commit("SET_RECOMMENDS", e.data), ke(t)
                             })
                         });
                         var a = "en",
-                            s = function(n) {
+                            s = function (n) {
                                 "home" === Ne.currentRoute.name && ga("send", "pageview", a + "/home"), t.state.init = !0, n && FBInstant.player.setDataAsync({
                                     language: a
                                 }), t.commit("SET_LANGUAGE", a), t.commit("SET_SESSION_DATA", {
@@ -1467,29 +1480,29 @@
                         else {
                             var r = FBInstant.getEntryPointData(),
                                 o = FBInstant.getLocale().split("_")[0];
-                            a = Me(t, o), "en" === a && r && "post" === r.type && r.locale && "en" !== r.locale && (a = r.locale), "en" === a ? je.get("country").then(function(e) {
+                            a = Me(t, o), "en" === a && r && "post" === r.type && r.locale && "en" !== r.locale && (a = r.locale), "en" === a ? je.get("country").then(function (e) {
                                 "PH" === e.data.country && (a = Me(t, "tl")), s(!0)
-                            }).catch(function(e) {
+                            }).catch(function (e) {
                                 t.commit("SET_NOTIFICATION", e.message), s(!0)
                             }) : s(!0)
                         }
-                        n.shortcut ? t.commit("SET_HIDE_SHORTCUT", !0) : FBInstant.canCreateShortcutAsync().then(function(e) {
+                        n.shortcut ? t.commit("SET_HIDE_SHORTCUT", !0) : FBInstant.canCreateShortcutAsync().then(function (e) {
                             e || t.commit("SET_HIDE_SHORTCUT", !0)
                         }), n.reject_bot_at && t.commit("SET_REJECT_BOT_AT", n.reject_bot_at), n.contents && t.commit("SET_READ_CONTENTS", n.contents)
-                    }).catch(function(e) {
+                    }).catch(function (e) {
                         t.commit("SET_NOTIFICATION", e.message)
                     })
                 },
-                SET_LANGUAGE: function(t, e) {
+                SET_LANGUAGE: function (t, e) {
                     FBInstant.player.setDataAsync({
                         language: e
-                    }).then(function() {
+                    }).then(function () {
                         t.commit("RESET_CONTENTS", []), t.commit("SET_CONTENT", {}), t.commit("SET_MORE_CONTENTS", !1), t.commit("SET_BOUNCE", !0), t.state.reload = !0, EventBus.$emit("reload")
-                    }).catch(function(e) {
+                    }).catch(function (e) {
                         t.commit("SET_NOTIFICATION", e.message)
                     })
                 },
-                SET_CONTENTS: function(t, e) {
+                SET_CONTENTS: function (t, e) {
                     var n = 0,
                         a = t.state.page,
                         s = function s() {
@@ -1499,22 +1512,22 @@
                                     page: a,
                                     domain: t.state.app
                                 }
-                            }).then(function(n) {
-                                n.data.length ? (t.commit("SET_MORE_CONTENTS", !0), t.commit("SET_CONTENTS", n.data)) : t.commit("SET_MORE_CONTENTS", !1), 1 === a && i.a.delay(function() {
+                            }).then(function (n) {
+                                n.data.length ? (t.commit("SET_MORE_CONTENTS", !0), t.commit("SET_CONTENTS", n.data)) : t.commit("SET_MORE_CONTENTS", !1), 1 === a && i.a.delay(function () {
                                     ke(t)
                                 }, 10), e && e()
-                            }).catch(function(e) {
+                            }).catch(function (e) {
                                 if (n < 2) return n += 1, void i.a.delay(s, 500);
                                 t.commit("SET_MORE_CONTENTS", !0), t.commit("SET_NOTIFICATION", e.message)
                             })
                         };
                     s()
                 },
-                SET_CONTENT: function(t, e) {
+                SET_CONTENT: function (t, e) {
                     var n = i.a.find(t.state.contents, {
                             id: e
                         }),
-                        a = function(e) {
+                        a = function (e) {
                             "game" === e.type && Ne.push({
                                 path: "/game/" + e.title.name
                             }), t.commit("SET_CONTENT", e)
@@ -1523,9 +1536,9 @@
                     else {
                         var s = 0,
                             r = function n() {
-                                $e.get("content/" + e).then(function(t) {
+                                $e.get("content/" + e).then(function (t) {
                                     a(t.data)
-                                }).catch(function(e) {
+                                }).catch(function (e) {
                                     if (s < 2) return s += 1, void i.a.delay(n, 500);
                                     t.commit("SET_NOTIFICATION", e.message), Ne.push({
                                         name: "home",
@@ -1536,37 +1549,43 @@
                         r()
                     }
                 },
-                SET_RECOMMEND: function(t) {
+                SET_RECOMMEND: function (t) {
                     var e = i.a.head(i.a.pullAll(t.state.recommends, t.state.read_contents)),
-                        n = function(e) {
+                        n = function (e) {
                             t.commit("SET_RECOMMEND", e)
                         };
                     if (e) {
                         var a = i.a.find(t.state.contents, {
                             id: e
                         });
-                        a ? (a.recommend = !0, n(a)) : $e.get("content/" + e).then(function(t) {
+                        a ? (a.recommend = !0, n(a)) : $e.post("content/push_recommend", JSON.stringify(e)).then(function (t) {
                             t.data.recommend = !0, n(t.data)
                         })
                     }
                 },
-                SET_HIDE_SHORTCUT: function(t, e) {
+                SET_HIDE_SHORTCUT: function (t, e) {
                     FBInstant.player.setDataAsync({
                         hide_shortcut: e
                     }), t.commit("SET_HIDE_SHORTCUT", e)
                 },
-                ADD_VIEW: function(t, e) {
-                    qe[e] || je.get("content/" + e + "/view ").catch(function() {
+                ADD_VIEW: function (t, e) {
+                    qe[e] || je.post("content/view", JSON.stringify({id: e})).catch(function () {
                         m.a.captureMessage("View Count Error:" + e)
                     }), qe[e] = !0
                 },
-                ADD_REFERER: function(t, e) {
-                    je.get("content/" + e.id + "/" + (e.result || "result")).catch(function() {
+                ADD_REFERER: function (t, e) {
+                    je.post("content/referer", JSON.stringify({
+                        id: e.id,
+                        result: e.result
+                    })).catch(function () {
                         m.a.captureMessage("Referer Count Error:" + e.id)
                     }), qe[e.id] = !0
                 },
-                PUT_SHARE: function(t, e) {
-                    je.get("user/" + t.state.me.id + "/" + e).catch(function() {
+                PUT_SHARE: function (t, e) {
+                    je.post("user/share", JSON.stringify({
+                        id: t.state.me.id,
+                        event: e
+                    })).catch(function () {
                         m.a.captureMessage("Share Count Error:" + e)
                     })
                 }
@@ -1574,101 +1593,101 @@
             Re = n("e814"),
             Pe = n.n(Re),
             Be = null,
-            Fe = function(t, e) {
+            Fe = function (t, e) {
                 t.read_contents = i.a.union([e.id], t.read_contents), FBInstant.player.setDataAsync({
                     contents: i.a.compact(t.read_contents).slice(0, 25)
                 })
             },
             Ge = {
-                SET_STATUS: function(t, e) {
+                SET_STATUS: function (t, e) {
                     var n = e.split(":");
                     t.status = n[0], t.sub_status = n[1]
                 },
-                SET_CONTENTS: function(t, e) {
-                    "IOS" === FBInstant.getPlatform() && (e = i.a.filter(e, function(t) {
+                SET_CONTENTS: function (t, e) {
+                    "IOS" === FBInstant.getPlatform() && (e = i.a.filter(e, function (t) {
                         return "promo" !== t.type
-                    })), i.a.each(e, function(e) {
+                    })), i.a.each(e, function (e) {
                         e.read = -1 !== i.a.indexOf(t.read_contents, e.id)
-                    }), 0 === t.contents.length && (e = i.a.map(i.a.orderBy(e, ["read"], ["asc"]), function(t, e) {
+                    }), 0 === t.contents.length && (e = i.a.map(i.a.orderBy(e, ["read"], ["asc"]), function (t, e) {
                         return t.idx = e, t
                     }));
                     var n = i.a.unionBy(t.contents, e, "id");
                     n.length > t.contents.length && (t.contents = n, t.page += 1)
                 },
-                SET_RECOMMENDS: function(t, e) {
-                    t.recommends = i.a.map(i.a.orderBy(e, ["score"], ["desc"]), function(t) {
+                SET_RECOMMENDS: function (t, e) {
+                    t.recommends = i.a.map(i.a.orderBy(e, ["score"], ["desc"]), function (t) {
                         return Pe()(t.id || t, 10)
                     }) || []
                 },
-                SET_RECOMMEND: function(t, e) {
+                SET_RECOMMEND: function (t, e) {
                     e.language === t.language ? t.contents = i.a.unionBy([e], t.contents, "id") : Fe(t, e)
                 },
-                SET_READ_CONTENTS: function(t, e) {
+                SET_READ_CONTENTS: function (t, e) {
                     t.read_contents = e || []
                 },
-                SET_GAME: function(t, e) {
+                SET_GAME: function (t, e) {
                     t.game = e
                 },
-                RESET_CONTENTS: function(t, e) {
+                RESET_CONTENTS: function (t, e) {
                     0 === e.length && (t.page = 1), t.contents = e, t.reset = !0
                 },
-                SET_FRIENDS: function(t, e) {
+                SET_FRIENDS: function (t, e) {
                     t.friends = e || []
                 },
-                SET_FRIEND: function(t, e) {
+                SET_FRIEND: function (t, e) {
                     t.friend = e
                 },
-                SET_RESET: function(t, e) {
+                SET_RESET: function (t, e) {
                     t.reset = e
                 },
-                SET_MORE_CONTENTS: function(t, e) {
+                SET_MORE_CONTENTS: function (t, e) {
                     t.more_contents = e
                 },
-                SET_CONTENT: function(t, e) {
+                SET_CONTENT: function (t, e) {
                     e.read = !0, t.content = e, e.id && Fe(t, e)
                 },
-                SET_ME: function(t) {
+                SET_ME: function (t) {
                     t.me = {
                         id: FBInstant.player.getID(),
                         name: FBInstant.player.getName(),
                         photo: FBInstant.player.getPhoto()
                     }
                 },
-                SET_LOADING: function(t, e) {
+                SET_LOADING: function (t, e) {
                     t.loading = e
                 },
-                SET_BOUNCE: function(t, e) {
+                SET_BOUNCE: function (t, e) {
                     t.bounce = e
                 },
-                SET_LANGUAGE: function(t, e) {
+                SET_LANGUAGE: function (t, e) {
                     t.language = e, EventBus.$emit("set:language", e)
                 },
-                ADD_PAGEVIEW: function(t) {
+                ADD_PAGEVIEW: function (t) {
                     t.pageview += 1
                 },
-                SET_SESSION_DATA: function(t, e) {
+                SET_SESSION_DATA: function (t, e) {
                     t.session_data = i.a.extend(t.session_data, e), FBInstant.setSessionData(t.session_data)
                 },
-                SET_HIDE_SHORTCUT: function(t, e) {
+                SET_HIDE_SHORTCUT: function (t, e) {
                     t.hide_shortcut = e
                 },
-                SET_NOTIFICATION: function(t, e) {
-                    t.notification = e, m.a.captureMessage("FB:" + e), clearTimeout(Be), Be = setTimeout(function() {
+                SET_NOTIFICATION: function (t, e) {
+                    t.notification = e, m.a.captureMessage("FB:" + e), clearTimeout(Be), Be = setTimeout(function () {
                         t.notification = null
                     }, 2e3)
                 },
-                SET_OPEN: function(t, e) {
+                SET_OPEN: function (t, e) {
                     t.open = e
                 },
-                SET_RESULT: function(t, e) {
+                SET_RESULT: function (t, e) {
                     t.result = e
                 },
-                SET_REJECT_BOT_AT: function(t, e) {
+                SET_REJECT_BOT_AT: function (t, e) {
                     t.reject_bot_at = e
                 }
             },
             Ue = {
-                games: function(t) {
+                games: function (t) {
                     return t.games[t.language] || t.games.en
                 }
             };
@@ -1793,348 +1812,348 @@
             Le = He;
         s["a"].use(v["a"]);
         var Qe = {
-                en: {
-                    share: "Share",
-                    disclaimer: "Disclaimer: All content is provided for fun and entertainment purposes only.",
-                    try_again: "Try Again",
-                    loading_messages: ["Hang on...", "The results will shock you..."],
-                    error_message: "OMG! Please try again.",
-                    more_quizzes: "Popular among friends",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "Trending",
-                    hot: "Hot",
-                    recommend: "Best",
-                    start: "Start"
-                },
-                es: {
-                    share: "Compartelo",
-                    disclaimer: "Aviso: El contenido total de la página no tiene otro fin que la diversión y el entretenimiento.",
-                    try_again: "Inténtalo de nuevo",
-                    loading_messages: ["Por favor espera...", "Los resultados te sorprenderán..."],
-                    error_message: "¡Caramba! Por favor intenta de nuevo.",
-                    more_quizzes: "Popular entre amigos",
-                    ad_notice: "El resultado se mostrará después de la publicidad.",
-                    trending: "Tendencias",
-                    hot: "Caliente",
-                    recommend: "Mejor",
-                    start: "Start"
-                },
-                pt: {
-                    share: "Compartilhê-lo",
-                    disclaimer: "Aviso: Todo o conteúdo é provido somente para fins de diversão e entretenimento.",
-                    try_again: "Tente novamente",
-                    loading_messages: ["Por favor aguarde...", "Os resultados vão surpreendê-lo..."],
-                    error_message: "Meu Deus! Tenta de novo",
-                    more_quizzes: "Popular entre amigos",
-                    ad_notice: "O resultado será exibido após este anúncio.",
-                    trending: "Tendência",
-                    hot: "Populares",
-                    recommend: "Melhores",
-                    start: "Start"
-                },
-                fr: {
-                    share: "Partagez-le",
-                    disclaimer: "Clause de non-responsabilité: Tout le contenu est fourni uniquement à des fins d'amusement et de divertissement.",
-                    try_again: "Réessayer",
-                    loading_messages: ["Attend...", "Les résultats vont vous choquer..."],
-                    error_message: "Meu Deus! Tenta de novo",
-                    more_quizzes: "Populaire parmi des amis",
-                    ad_notice: "Le résultat s'affichera après cette annonce.",
-                    trending: "Tendance",
-                    hot: "Hot",
-                    recommend: "Recommandé",
-                    start: "Start"
-                },
-                it: {
-                    share: "Condividi",
-                    disclaimer: "Nota: Il contenuto di questa pagina è finalizzato solo per puro divertimento e intrattenimento.",
-                    try_again: "Riprova",
-                    loading_messages: ["Attendere prego...", "I risultati ti sorprenderanno..."],
-                    error_message: "Accipicchia! Prova di nuovo.",
-                    more_quizzes: "Popolare tra amici",
-                    ad_notice: "Il risultato verrà mostrato subito dopo questo annuncio.",
-                    trending: "Trend",
-                    hot: "Hot",
-                    recommend: "Consigliabile",
-                    start: "Start"
-                },
-                th: {
-                    share: "แชร์",
-                    disclaimer: "้อตกลงและเงื่อนไข : เนื้อหาทั้งหมดนี้วัตถุประสงค์เพื่อความสนุกและบันเทิงเท่านั้น.",
-                    try_again: "ลองอีกครั้ง",
-                    loading_messages: ["รอก่อน...", "อุ๊ย ตายแล้ว! ผลลัพธ์จะทำให้คุณประหลาดใจ..."],
-                    error_message: "โอ้พระเจ้า! กรุณาลองอีกครั้ง.",
-                    more_quizzes: "ป๊อปในหมู่เพื่อน",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "อินเทรนด์",
-                    hot: "ฮอต",
-                    recommend: "ดีที่สุด",
-                    start: "Start"
-                },
-                vi: {
-                    share: "Chia sẻ",
-                    disclaimer: "Cảnh báo: Tất cả nội dung được cung cấp chỉ với mục đích vui nhộn và giải trí.",
-                    try_again: "Thử lại",
-                    loading_messages: ["Chờ chút...", "Kết quả sẽ làm bạn kinh ngạc đó..."],
-                    error_message: "Ối giời ơi! Thử lại đi!",
-                    more_quizzes: "Được bạn bè yêu thích",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Xu Hướng",
-                    hot: "Hot",
-                    recommend: "đề nghị",
-                    start: "Start"
-                },
-                id: {
-                    share: "Bagikan",
-                    disclaimer: "Catatan: Semua konten yang tersedia hanya bertujuan sebagai hiburan semata.",
-                    try_again: "Coba lagi",
-                    loading_messages: ["Tunggu sebentar...", "Hasilnya akan membuatmu terkejut..."],
-                    error_message: "OH TUHAN! Silakan coba lagi.",
-                    more_quizzes: "Populer di kalangan teman-teman",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "Sedang Ngetren",
-                    hot: "Baru",
-                    recommend: "Terbaik",
-                    start: "Start"
-                },
-                de: {
-                    share: "Teilen",
-                    disclaimer: "Hinweis: Der Inhalt dieser Seite ist nur für Spaß und Unterhaltungszwecke.",
-                    try_again: "Versuchen Sie es nochmal",
-                    loading_messages: ["Abwarten...", "Die Ergebnisse werden Sie überraschen...."],
-                    error_message: "OH MEIN GOTT! Bitte versuche es erneut.",
-                    more_quizzes: "Beliebt unter Freunden",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "Trending",
-                    hot: "Hot",
-                    recommend: "Beste",
-                    start: "Start"
-                },
-                zh: {
-                    share: "分享",
-                    disclaimer: "聲明：所有遊戲與其內容皆是作為娛樂與有趣的用途",
-                    try_again: "再試一次",
-                    loading_messages: ["等一下...", "結果會令你震驚..."],
-                    error_message: "我的天啊。請再試一次。",
-                    more_quizzes: "在朋友中人氣很高",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "趨勢",
-                    hot: "熱门",
-                    recommend: "最好",
-                    start: "Start"
-                },
-                ms: {
-                    share: "Kongsi",
-                    disclaimer: "Disclaimer: All content is provided for fun and entertainment purposes only.",
-                    try_again: "Cuba Lagi",
-                    loading_messages: ["Bertahan...", "Keputusan akan mengejutkan anda..."],
-                    error_message: "OH TUHAN! Sila cuba lagi.",
-                    more_quizzes: "Popular di kalangan rakan-rakan",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "Sohor kini",
-                    hot: "Hangat",
-                    recommend: "Terbaik",
-                    start: "Start"
-                },
-                tr: {
-                    share: "Paylaş",
-                    disclaimer: "Yasal Uyarı: Tüm içerik sadece eğlence amaçlı sağlanmaktadır.",
-                    try_again: "Tekrar Deneyin",
-                    loading_messages: ["Dayan...", "Sonuçlar sizi şaşırtacak ..."],
-                    error_message: "AMAN TANRIM! Lütfen tekrar deneyin.",
-                    more_quizzes: "Arkadaşlar arasında popüler",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "Trend",
-                    hot: "Ani",
-                    recommend: "En Iyi",
-                    start: "Start"
-                },
-                ja: {
-                    share: "シェア",
-                    disclaimer: "全てのコンテンツは娯楽とエンターテイメントの目的のみで提供しております。",
-                    try_again: "再試行",
-                    loading_messages: ["ちょっとお待ちください...", "あなたに結果に驚かれるでしょう..."],
-                    error_message: "ああ、神様！もう一度お試しください。",
-                    more_quizzes: "友達の間で人気",
-                    ad_notice: "The result will show after this ad.",
-                    trending: "トレンディング",
-                    hot: "人気の",
-                    recommend: "あなたにぴったり",
-                    start: "Start"
-                },
-                nl: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Delen",
-                    disclaimer: "Disclaimer: Alle inhoud wordt alleen verstrekt voor plezier- en amusementsdoeleinden.",
-                    try_again: "Probeer opnieuw",
-                    loading_messages: ["Ho...", "Je zult van de resultaten schrikken..."],
-                    error_message: "OMG! Probeer het opnieuw.",
-                    more_quizzes: "Populair onder je vrienden",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Trendy",
-                    hot: "Heftige",
-                    recommend: "Meest Populaire",
-                    start: "Start"
-                },
-                ru: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Поделиться",
-                    disclaimer: "Отказ от ответственности: весь контент предоставляется исключительно в развлекательных целях.",
-                    try_again: "Повторить попытку",
-                    loading_messages: ["Подождите...", "Результат вас сильно удивит..."],
-                    error_message: "О, МОЙ БОГ! Пожалуйста, попробуйте еще раз.",
-                    more_quizzes: "Популярны среди друзей",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "В тренде",
-                    hot: "Популярные",
-                    recommend: "Лучший",
-                    start: "Start"
-                },
-                ro: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Distribuie",
-                    disclaimer: "Tot conținutul este furnizat numai pentru distracție și divertisment.",
-                    try_again: "Încearcă din nou",
-                    loading_messages: ["Așteaptă...", "Rzultatele te vor șoca..."],
-                    error_message: "NU-MI VINE SĂ CRED! Vă rugăm să încercați din nou.",
-                    more_quizzes: "E posibil de asemenea să-ți placă...",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Ultimele Tendințe",
-                    hot: "Super Tare",
-                    recommend: "Cel mai bun",
-                    start: "Start"
-                },
-                pl: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Udostępnij",
-                    disclaimer: "Wyłączenie odpowiedzialności: cała zawartość jest udostępniana tylko w celach rozrywkowych!",
-                    try_again: "Spróbuj ponownie.",
-                    loading_messages: ["Wytrzymać...", "Rezultaty cię zaszokują..."],
-                    error_message: "O MÓJ BOŻE! Proszę spróbuj ponownie.",
-                    more_quizzes: "Popularne wśród znajomych",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Najpopularniejsze",
-                    hot: "Najgorętsze",
-                    recommend: "Najlepsze",
-                    start: "Start"
-                },
-                ka: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "გაზიარება",
-                    disclaimer: "უარყოფა: მოცემული კონტენტი მიზანმიმართულია მხოლოდ გართობისათვის.",
-                    try_again: "თავიდან სცადეთ",
-                    loading_messages: ["გთხოვთ, დაიცადოთ...", "რეზულტატი გაგაოცებთ..."],
-                    error_message: "ღმერთო ჩემო! გთხოვთ, თავიდან სცადოთ!",
-                    more_quizzes: "პოპულარული მეგობრებს შორის",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "ტრენდული",
-                    hot: "ცხელ-ცხელი",
-                    recommend: "საუკეთესო",
-                    start: "Start"
-                },
-                hi: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "साझा करें",
-                    disclaimer: "अस्वीकरण: सभी सामग्री केवल मज़ाक और मनोरंजन के उद्देश्यों के लिए प्रदान की गई हैं।",
-                    try_again: "फिर से कोशिश करें",
-                    loading_messages: ["ठहरो...", "नतीजों से आपको सदमा लगेगा..."],
-                    error_message: "हे भगवान! कृपया पुन: प्रयास करें!",
-                    more_quizzes: "आप यह भी पसंद कर सकते हैं",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "चलन में",
-                    hot: "ताज़ी",
-                    recommend: "श्रेष्ठ",
-                    start: "Start"
-                },
-                my: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "ဝေမျှရန်",
-                    disclaimer: "မသက်ဆိုင်ကြောင်း ရှင်းလင်းချက်- အကြောင်းအရာများ အားလုံးသည် အပျော်သက်သက် ဖျော်ဖြေမှုအတွက်သာ ဖြစ်ပါသည်။",
-                    try_again: "ထပ်ကြိုးစားရန်",
-                    loading_messages: ["ခဏ...", "ရလဒ်များသည် သင့်ကို အံ့အားသင့်စေပါလိမ့်မည်..."],
-                    error_message: "ဘုရားရေ! ထပ်ကြိုးစားပါ!",
-                    more_quizzes: "သင်နှစ်သက်နိုင်သည်များ",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "ခေတ်စားနေသည်များ",
-                    hot: "ရေပန်းစားနေသည်များ",
-                    recommend: "အကောင်းဆုံး",
-                    start: "Start"
-                },
-                uk: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Поділитися",
-                    disclaimer: "Відмова від відповідальності: Увесь вміст передбачено лише для розваги.",
-                    try_again: "Повторити спробу",
-                    loading_messages: ["Стривайте...", "Результати вас просто вразять..."],
-                    error_message: "О, ГОСПОДИ! Повторіть спробу!",
-                    more_quizzes: "Популярне серед друзів",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Популярне",
-                    hot: "Гаряче",
-                    recommend: "Найкраще",
-                    start: "Start"
-                },
-                bg: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Сподели",
-                    disclaimer: "Отказ от отговорност: Цялото съдържание се предоставя само за забавни и развлекателни цели.",
-                    try_again: "Опитай отново",
-                    loading_messages: ["Момент...", "Резултатите ще те шокират..."],
-                    error_message: "О, БОЖЕ МОЙ! Моля, опитайте отново!",
-                    more_quizzes: "популярен сред приятели",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Тенденции",
-                    hot: "Горещи",
-                    recommend: "Най-добрият",
-                    start: "Start"
-                },
-                sv: {
-                    title: "OMG",
-                    description: "It's all that's trending!",
-                    share: "Dela",
-                    disclaimer: "Ansvarsfriskrivning: Allt innehåll tillhandahålls endast för underhållning.",
-                    try_again: "Försök igen",
-                    loading_messages: ["Vänta...", "Resultatet kommer att chockera dig..."],
-                    error_message: "Hoppsan! Var god försök igen!",
-                    more_quizzes: "Populär bland dina vänner",
-                    eight: "8Personalities",
-                    ad_notice: "The result will show after this ad.",
-                    see_more: "See More",
-                    trending: "Trendar just nu",
-                    hot: "Heta",
-                    recommend: "Bästa",
-                    start: "Start"
-                }
-            };
+            en: {
+                share: "Share",
+                disclaimer: "Disclaimer: All content is provided for fun and entertainment purposes only.",
+                try_again: "Try Again",
+                loading_messages: ["Hang on...", "The results will shock you..."],
+                error_message: "OMG! Please try again.",
+                more_quizzes: "Popular among friends",
+                ad_notice: "The result will show after this ad.",
+                trending: "Trending",
+                hot: "Hot",
+                recommend: "Best",
+                start: "Start"
+            },
+            es: {
+                share: "Compartelo",
+                disclaimer: "Aviso: El contenido total de la página no tiene otro fin que la diversión y el entretenimiento.",
+                try_again: "Inténtalo de nuevo",
+                loading_messages: ["Por favor espera...", "Los resultados te sorprenderán..."],
+                error_message: "¡Caramba! Por favor intenta de nuevo.",
+                more_quizzes: "Popular entre amigos",
+                ad_notice: "El resultado se mostrará después de la publicidad.",
+                trending: "Tendencias",
+                hot: "Caliente",
+                recommend: "Mejor",
+                start: "Start"
+            },
+            pt: {
+                share: "Compartilhê-lo",
+                disclaimer: "Aviso: Todo o conteúdo é provido somente para fins de diversão e entretenimento.",
+                try_again: "Tente novamente",
+                loading_messages: ["Por favor aguarde...", "Os resultados vão surpreendê-lo..."],
+                error_message: "Meu Deus! Tenta de novo",
+                more_quizzes: "Popular entre amigos",
+                ad_notice: "O resultado será exibido após este anúncio.",
+                trending: "Tendência",
+                hot: "Populares",
+                recommend: "Melhores",
+                start: "Start"
+            },
+            fr: {
+                share: "Partagez-le",
+                disclaimer: "Clause de non-responsabilité: Tout le contenu est fourni uniquement à des fins d'amusement et de divertissement.",
+                try_again: "Réessayer",
+                loading_messages: ["Attend...", "Les résultats vont vous choquer..."],
+                error_message: "Meu Deus! Tenta de novo",
+                more_quizzes: "Populaire parmi des amis",
+                ad_notice: "Le résultat s'affichera après cette annonce.",
+                trending: "Tendance",
+                hot: "Hot",
+                recommend: "Recommandé",
+                start: "Start"
+            },
+            it: {
+                share: "Condividi",
+                disclaimer: "Nota: Il contenuto di questa pagina è finalizzato solo per puro divertimento e intrattenimento.",
+                try_again: "Riprova",
+                loading_messages: ["Attendere prego...", "I risultati ti sorprenderanno..."],
+                error_message: "Accipicchia! Prova di nuovo.",
+                more_quizzes: "Popolare tra amici",
+                ad_notice: "Il risultato verrà mostrato subito dopo questo annuncio.",
+                trending: "Trend",
+                hot: "Hot",
+                recommend: "Consigliabile",
+                start: "Start"
+            },
+            th: {
+                share: "แชร์",
+                disclaimer: "้อตกลงและเงื่อนไข : เนื้อหาทั้งหมดนี้วัตถุประสงค์เพื่อความสนุกและบันเทิงเท่านั้น.",
+                try_again: "ลองอีกครั้ง",
+                loading_messages: ["รอก่อน...", "อุ๊ย ตายแล้ว! ผลลัพธ์จะทำให้คุณประหลาดใจ..."],
+                error_message: "โอ้พระเจ้า! กรุณาลองอีกครั้ง.",
+                more_quizzes: "ป๊อปในหมู่เพื่อน",
+                ad_notice: "The result will show after this ad.",
+                trending: "อินเทรนด์",
+                hot: "ฮอต",
+                recommend: "ดีที่สุด",
+                start: "Start"
+            },
+            vi: {
+                share: "Chia sẻ",
+                disclaimer: "Cảnh báo: Tất cả nội dung được cung cấp chỉ với mục đích vui nhộn và giải trí.",
+                try_again: "Thử lại",
+                loading_messages: ["Chờ chút...", "Kết quả sẽ làm bạn kinh ngạc đó..."],
+                error_message: "Ối giời ơi! Thử lại đi!",
+                more_quizzes: "Được bạn bè yêu thích",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Xu Hướng",
+                hot: "Hot",
+                recommend: "đề nghị",
+                start: "Start"
+            },
+            id: {
+                share: "Bagikan",
+                disclaimer: "Catatan: Semua konten yang tersedia hanya bertujuan sebagai hiburan semata.",
+                try_again: "Coba lagi",
+                loading_messages: ["Tunggu sebentar...", "Hasilnya akan membuatmu terkejut..."],
+                error_message: "OH TUHAN! Silakan coba lagi.",
+                more_quizzes: "Populer di kalangan teman-teman",
+                ad_notice: "The result will show after this ad.",
+                trending: "Sedang Ngetren",
+                hot: "Baru",
+                recommend: "Terbaik",
+                start: "Start"
+            },
+            de: {
+                share: "Teilen",
+                disclaimer: "Hinweis: Der Inhalt dieser Seite ist nur für Spaß und Unterhaltungszwecke.",
+                try_again: "Versuchen Sie es nochmal",
+                loading_messages: ["Abwarten...", "Die Ergebnisse werden Sie überraschen...."],
+                error_message: "OH MEIN GOTT! Bitte versuche es erneut.",
+                more_quizzes: "Beliebt unter Freunden",
+                ad_notice: "The result will show after this ad.",
+                trending: "Trending",
+                hot: "Hot",
+                recommend: "Beste",
+                start: "Start"
+            },
+            zh: {
+                share: "分享",
+                disclaimer: "聲明：所有遊戲與其內容皆是作為娛樂與有趣的用途",
+                try_again: "再試一次",
+                loading_messages: ["等一下...", "結果會令你震驚..."],
+                error_message: "我的天啊。請再試一次。",
+                more_quizzes: "在朋友中人氣很高",
+                ad_notice: "The result will show after this ad.",
+                trending: "趨勢",
+                hot: "熱门",
+                recommend: "最好",
+                start: "Start"
+            },
+            ms: {
+                share: "Kongsi",
+                disclaimer: "Disclaimer: All content is provided for fun and entertainment purposes only.",
+                try_again: "Cuba Lagi",
+                loading_messages: ["Bertahan...", "Keputusan akan mengejutkan anda..."],
+                error_message: "OH TUHAN! Sila cuba lagi.",
+                more_quizzes: "Popular di kalangan rakan-rakan",
+                ad_notice: "The result will show after this ad.",
+                trending: "Sohor kini",
+                hot: "Hangat",
+                recommend: "Terbaik",
+                start: "Start"
+            },
+            tr: {
+                share: "Paylaş",
+                disclaimer: "Yasal Uyarı: Tüm içerik sadece eğlence amaçlı sağlanmaktadır.",
+                try_again: "Tekrar Deneyin",
+                loading_messages: ["Dayan...", "Sonuçlar sizi şaşırtacak ..."],
+                error_message: "AMAN TANRIM! Lütfen tekrar deneyin.",
+                more_quizzes: "Arkadaşlar arasında popüler",
+                ad_notice: "The result will show after this ad.",
+                trending: "Trend",
+                hot: "Ani",
+                recommend: "En Iyi",
+                start: "Start"
+            },
+            ja: {
+                share: "シェア",
+                disclaimer: "全てのコンテンツは娯楽とエンターテイメントの目的のみで提供しております。",
+                try_again: "再試行",
+                loading_messages: ["ちょっとお待ちください...", "あなたに結果に驚かれるでしょう..."],
+                error_message: "ああ、神様！もう一度お試しください。",
+                more_quizzes: "友達の間で人気",
+                ad_notice: "The result will show after this ad.",
+                trending: "トレンディング",
+                hot: "人気の",
+                recommend: "あなたにぴったり",
+                start: "Start"
+            },
+            nl: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Delen",
+                disclaimer: "Disclaimer: Alle inhoud wordt alleen verstrekt voor plezier- en amusementsdoeleinden.",
+                try_again: "Probeer opnieuw",
+                loading_messages: ["Ho...", "Je zult van de resultaten schrikken..."],
+                error_message: "OMG! Probeer het opnieuw.",
+                more_quizzes: "Populair onder je vrienden",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Trendy",
+                hot: "Heftige",
+                recommend: "Meest Populaire",
+                start: "Start"
+            },
+            ru: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Поделиться",
+                disclaimer: "Отказ от ответственности: весь контент предоставляется исключительно в развлекательных целях.",
+                try_again: "Повторить попытку",
+                loading_messages: ["Подождите...", "Результат вас сильно удивит..."],
+                error_message: "О, МОЙ БОГ! Пожалуйста, попробуйте еще раз.",
+                more_quizzes: "Популярны среди друзей",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "В тренде",
+                hot: "Популярные",
+                recommend: "Лучший",
+                start: "Start"
+            },
+            ro: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Distribuie",
+                disclaimer: "Tot conținutul este furnizat numai pentru distracție și divertisment.",
+                try_again: "Încearcă din nou",
+                loading_messages: ["Așteaptă...", "Rzultatele te vor șoca..."],
+                error_message: "NU-MI VINE SĂ CRED! Vă rugăm să încercați din nou.",
+                more_quizzes: "E posibil de asemenea să-ți placă...",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Ultimele Tendințe",
+                hot: "Super Tare",
+                recommend: "Cel mai bun",
+                start: "Start"
+            },
+            pl: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Udostępnij",
+                disclaimer: "Wyłączenie odpowiedzialności: cała zawartość jest udostępniana tylko w celach rozrywkowych!",
+                try_again: "Spróbuj ponownie.",
+                loading_messages: ["Wytrzymać...", "Rezultaty cię zaszokują..."],
+                error_message: "O MÓJ BOŻE! Proszę spróbuj ponownie.",
+                more_quizzes: "Popularne wśród znajomych",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Najpopularniejsze",
+                hot: "Najgorętsze",
+                recommend: "Najlepsze",
+                start: "Start"
+            },
+            ka: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "გაზიარება",
+                disclaimer: "უარყოფა: მოცემული კონტენტი მიზანმიმართულია მხოლოდ გართობისათვის.",
+                try_again: "თავიდან სცადეთ",
+                loading_messages: ["გთხოვთ, დაიცადოთ...", "რეზულტატი გაგაოცებთ..."],
+                error_message: "ღმერთო ჩემო! გთხოვთ, თავიდან სცადოთ!",
+                more_quizzes: "პოპულარული მეგობრებს შორის",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "ტრენდული",
+                hot: "ცხელ-ცხელი",
+                recommend: "საუკეთესო",
+                start: "Start"
+            },
+            hi: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "साझा करें",
+                disclaimer: "अस्वीकरण: सभी सामग्री केवल मज़ाक और मनोरंजन के उद्देश्यों के लिए प्रदान की गई हैं।",
+                try_again: "फिर से कोशिश करें",
+                loading_messages: ["ठहरो...", "नतीजों से आपको सदमा लगेगा..."],
+                error_message: "हे भगवान! कृपया पुन: प्रयास करें!",
+                more_quizzes: "आप यह भी पसंद कर सकते हैं",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "चलन में",
+                hot: "ताज़ी",
+                recommend: "श्रेष्ठ",
+                start: "Start"
+            },
+            my: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "ဝေမျှရန်",
+                disclaimer: "မသက်ဆိုင်ကြောင်း ရှင်းလင်းချက်- အကြောင်းအရာများ အားလုံးသည် အပျော်သက်သက် ဖျော်ဖြေမှုအတွက်သာ ဖြစ်ပါသည်။",
+                try_again: "ထပ်ကြိုးစားရန်",
+                loading_messages: ["ခဏ...", "ရလဒ်များသည် သင့်ကို အံ့အားသင့်စေပါလိမ့်မည်..."],
+                error_message: "ဘုရားရေ! ထပ်ကြိုးစားပါ!",
+                more_quizzes: "သင်နှစ်သက်နိုင်သည်များ",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "ခေတ်စားနေသည်များ",
+                hot: "ရေပန်းစားနေသည်များ",
+                recommend: "အကောင်းဆုံး",
+                start: "Start"
+            },
+            uk: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Поділитися",
+                disclaimer: "Відмова від відповідальності: Увесь вміст передбачено лише для розваги.",
+                try_again: "Повторити спробу",
+                loading_messages: ["Стривайте...", "Результати вас просто вразять..."],
+                error_message: "О, ГОСПОДИ! Повторіть спробу!",
+                more_quizzes: "Популярне серед друзів",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Популярне",
+                hot: "Гаряче",
+                recommend: "Найкраще",
+                start: "Start"
+            },
+            bg: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Сподели",
+                disclaimer: "Отказ от отговорност: Цялото съдържание се предоставя само за забавни и развлекателни цели.",
+                try_again: "Опитай отново",
+                loading_messages: ["Момент...", "Резултатите ще те шокират..."],
+                error_message: "О, БОЖЕ МОЙ! Моля, опитайте отново!",
+                more_quizzes: "популярен сред приятели",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Тенденции",
+                hot: "Горещи",
+                recommend: "Най-добрият",
+                start: "Start"
+            },
+            sv: {
+                title: "OMG",
+                description: "It's all that's trending!",
+                share: "Dela",
+                disclaimer: "Ansvarsfriskrivning: Allt innehåll tillhandahålls endast för underhållning.",
+                try_again: "Försök igen",
+                loading_messages: ["Vänta...", "Resultatet kommer att chockera dig..."],
+                error_message: "Hoppsan! Var god försök igen!",
+                more_quizzes: "Populär bland dina vänner",
+                eight: "8Personalities",
+                ad_notice: "The result will show after this ad.",
+                see_more: "See More",
+                trending: "Trendar just nu",
+                hot: "Heta",
+                recommend: "Bästa",
+                start: "Start"
+            }
+        };
         m.a.config("https://dc26f08f3d8d423bb4b5ef757cc207d5@sentry.io/1338606", {
             sampleRate: .02
         }).install(), Object.defineProperty(s["a"].prototype, "_", {
@@ -2146,26 +2165,26 @@
             messages: Qe,
             fallbackLocale: "en"
         });
-        (function(t, e, n, a, i, s, r) {
-            t["GoogleAnalyticsObject"] = i, t[i] = t[i] || function() {
+        (function (t, e, n, a, i, s, r) {
+            t["GoogleAnalyticsObject"] = i, t[i] = t[i] || function () {
                 (t[i].q = t[i].q || []).push(arguments)
             }, t[i].l = 1 * new Date, s = e.createElement(n), r = e.getElementsByTagName(n)[0], s.async = 1, s.src = a, r.parentNode.insertBefore(s, r)
-        })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), s["a"].config.productionTip = !1, window.EventBus = new s["a"], window.scrollToHere = function(t) {
+        })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), s["a"].config.productionTip = !1, window.EventBus = new s["a"], window.scrollToHere = function (t) {
             window.scrollTo({
                 top: t.offsetTop,
                 behavior: "smooth"
             })
         };
-        window.onload = function() {
-            FBInstant.initializeAsync().then(function() {
-                FBInstant.startGameAsync().then(function() {
-                    FBInstant.setLoadingProgress(100), m.a.context(function() {
+        window.onload = function () {
+            FBInstant.initializeAsync().then(function () {
+                FBInstant.startGameAsync().then(function () {
+                    FBInstant.setLoadingProgress(100), m.a.context(function () {
                         new s["a"]({
                             i18n: Je,
                             router: Ne,
                             store: Le,
                             el: "#app",
-                            render: function(t) {
+                            render: function (t) {
                                 return t(V)
                             }
                         })
@@ -2174,56 +2193,58 @@
             })
         }
     },
-    "5c0b": function(t, e, n) {
+    "5c0b": function (t, e, n) {
         "use strict";
         var a = n("5e27"),
             i = n.n(a);
         i.a
     },
-    "5e27": function(t, e, n) {},
-    6070: function(t, e, n) {
+    "5e27": function (t, e, n) {
+    },
+    6070: function (t, e, n) {
         "use strict";
         var a = n("3174"),
             i = n.n(a);
         i.a
     },
-    "620c": function(t, e, n) {
+    "620c": function (t, e, n) {
         "use strict";
         var a = n("ed95"),
             i = n.n(a);
         i.a
     },
-    7912: function(t, e, n) {
+    7912: function (t, e, n) {
         "use strict";
         var a = n("d305"),
             i = n.n(a);
         i.a
     },
-    9184: function(t, e, n) {
+    9184: function (t, e, n) {
         t.exports = n.p + "img/slot_banner.e36bc377.jpg"
     },
-    "9da7": function(t, e, n) {
+    "9da7": function (t, e, n) {
         "use strict";
         var a = n("ec97"),
             i = n.n(a);
         i.a
     },
-    aada: function(t, e, n) {
+    aada: function (t, e, n) {
         "use strict";
         var a = n("1e17"),
             i = n.n(a);
         i.a
     },
-    bb9a: function(t, e, n) {
+    bb9a: function (t, e, n) {
         "use strict";
         var a = n("be05"),
             i = n.n(a);
         i.a
     },
-    be05: function(t, e, n) {},
-    bf48: function(t, e, n) {
+    be05: function (t, e, n) {
+    },
+    bf48: function (t, e, n) {
         "use strict";
-        (function(t) {
+        (function (t) {
             n("57e7"), n("28a5"), n("7f7f"), n("6d67"), n("d25f"), n("6b54"), n("87b3"), n("f559");
             var a = n("cebc"),
                 i = (n("3b2b"), n("a481"), n("2ef0")),
@@ -2236,13 +2257,13 @@
                 d = n("bc3a"),
                 h = n.n(d),
                 m = n("2f62"),
-                f = function(t, e, n) {
-                    return s.a.each(e, function(e, a) {
+                f = function (t, e, n) {
+                    return s.a.each(e, function (e, a) {
                         t = s.a.replace(t, new RegExp(e, "g"), n[a])
                     }), t
                 };
             e["a"] = {
-                data: function() {
+                data: function () {
                     return {
                         result: null,
                         media: null,
@@ -2250,16 +2271,16 @@
                         type: "image"
                     }
                 },
-                mounted: function() {
+                mounted: function () {
                     this.canvas = this.$refs.canvas, this.ctx = this.canvas.getContext("2d")
                 },
                 computed: Object(a["a"])({}, Object(m["d"])(["content", "me", "friends", "friend"]), {
-                    height: function() {
+                    height: function () {
                         return this.result ? this.result.media.height / this.result.media.width * 600 : 0
                     }
                 }),
                 methods: Object(a["a"])({
-                    show: function(t) {
+                    show: function (t) {
                         var e = this;
                         this.result = t, this.error = !1, this.result.morph ? h.a.post("https://16personalities.io/api/face_morph/", {
                             sources: [{
@@ -2273,11 +2294,11 @@
                             code: ""
                         }, {
                             timeout: 15e3
-                        }).then(function(t) {
+                        }).then(function (t) {
                             e.media = t.data.image_url[0]
-                        }).catch(function() {
+                        }).catch(function () {
                             e.error = !0, u.a.captureMessage("Fail:Image Server:" + e.content.title.text)
-                        }).finally(function() {
+                        }).finally(function () {
                             e.draw()
                         }) : this.content.detail.code ? s.a.startsWith(this.content.detail.code, "video:") ? h.a.post("https://16personalities.io/api/generate_movie/", {
                             image_url: this.me.photo,
@@ -2286,9 +2307,9 @@
                             result_id: this.result.id
                         }, {
                             timeout: 15e3
-                        }).then(function(t) {
+                        }).then(function (t) {
                             e.media = t.data, e.play()
-                        }).catch(function() {
+                        }).catch(function () {
                             e.error = !0, e.draw(), u.a.captureMessage("Fail:Image Server:" + e.content.title.text)
                         }) : h.a.post("https://16personalities.io/api/multi_morph/", {
                             image_url: this.me.photo,
@@ -2297,22 +2318,22 @@
                             result_id: this.result.id
                         }, {
                             timeout: 15e3
-                        }).then(function(t) {
+                        }).then(function (t) {
                             e.media = t.data
-                        }).catch(function() {
+                        }).catch(function () {
                             e.error = !0, u.a.captureMessage("Fail:Image Server:" + e.content.title.text)
-                        }).finally(function() {
+                        }).finally(function () {
                             e.draw()
                         }) : (this.media = this.result.media.src, this.draw())
                     },
-                    draw: function() {
+                    draw: function () {
                         var e = this,
                             n = this,
                             a = [],
                             i = 0;
                         this.clear(), this.type = "image";
-                        var r = function(n, a, i, s, r, o, c, l) {
-                                var u = function() {
+                        var r = function (n, a, i, s, r, o, c, l) {
+                                var u = function () {
                                         if ("greyscale" === c) {
                                             for (var t = e.ctx.getImageData(a, i, s, r), n = 0; n < t.height; n += 1)
                                                 for (var o = 0; o < t.width; o += 1) {
@@ -2324,26 +2345,26 @@
                                         }
                                     },
                                     d = new Image;
-                                d.onload = function() {
+                                d.onload = function () {
                                     e.ctx.save(), e.ctx.translate(a, i), o && e.ctx.rotate(o / 180 * Math.PI), e.ctx.drawImage(d, 0, 0, s, r), u(), e.ctx.restore(), l()
                                 }, d.onerror = l;
                                 try {
                                     h.a.get(n, {
                                         responseType: "arraybuffer"
-                                    }).then(function(e) {
+                                    }).then(function (e) {
                                         d.src = "data:image/png;base64," + t.from(e.data, "binary").toString("base64")
                                     }).catch(l)
                                 } catch (m) {
                                     d.crossOrigin = "Anonymous", d.src = n
                                 }
                             },
-                            l = function(t, n, i) {
-                                var o = s.a.sampleSize(e.friends, s.a.filter(t, function(t) {
+                            l = function (t, n, i) {
+                                var o = s.a.sampleSize(e.friends, s.a.filter(t, function (t) {
                                         return "friend_photo" === t.type
                                     }).length),
                                     l = 0;
-                                Object(c["parallel"])(s.a.map(t, function(t) {
-                                    return function(n) {
+                                Object(c["parallel"])(s.a.map(t, function (t) {
+                                    return function (n) {
                                         var i = null;
                                         if ("my_photo" === t.type) i = e.me.photo;
                                         else {
@@ -2352,19 +2373,19 @@
                                         }
                                         r(i, t.x, t.y, t.size, t.size, t.rotate, t.filter, n)
                                     }
-                                }), function(t) {
+                                }), function (t) {
                                     t ? i(t) : r(n, 0, 0, 600, e.height, 0, null, i)
                                 })
                             },
-                            d = s.a.groupBy(n.content.detail.composes, function(t) {
+                            d = s.a.groupBy(n.content.detail.composes, function (t) {
                                 return "text" === t.type
                             });
-                        Object(c["parallel"])([function(t) {
+                        Object(c["parallel"])([function (t) {
                             l(d.false, e.media, t)
-                        }, function(t) {
-                            var e = s.a.groupBy(s.a.filter(s.a.map(d.true, "font"), function(t) {
+                        }, function (t) {
+                            var e = s.a.groupBy(s.a.filter(s.a.map(d.true, "font"), function (t) {
                                 return t && "arial" !== t
-                            }), function(t) {
+                            }), function (t) {
                                 return s.a.startsWith(t, "GF:")
                             });
                             if (s.a.isEmpty(e)) t();
@@ -2376,15 +2397,15 @@
                                 e.false && (n.custom = {
                                     families: e.false
                                 }), e.true && (n.google = {
-                                    families: s.a.map(e.true, function(t) {
+                                    families: s.a.map(e.true, function (t) {
                                         return t.slice(3)
                                     })
                                 }), o.a.load(n)
                             }
-                        }], function(t) {
+                        }], function (t) {
                             if (t) return u.a.captureMessage("Load Image: " + e.content.title.text), e.error = !0, void e.$parent.$emit("loaded:result");
-                            s.a.each(d.true, function(t) {
-                                var s = function(e) {
+                            s.a.each(d.true, function (t) {
+                                var s = function (e) {
                                         return (t.style ? t.style + " " : "") + e + "px " + (t.font ? t.font.replace("GF:", "") : "Arial")
                                     },
                                     r = f(t.text, ["{{result}}", "{{me:name}}", "{{me:first_name}}", "{{me:initial}}", "{{input}}"], [n.result.text, n.me.name, n.me.name.split(" ")[0], n.me.name.charAt(0).toUpperCase(), n.result.answer]);
@@ -2399,65 +2420,71 @@
                                         var l = Math.floor(t.size * t.width / (c || 1));
                                         e.ctx.font = s(l)
                                     }
-                                } catch (u) {}
+                                } catch (u) {
+                                }
                                 e.ctx.fillText(r, 0, 0), e.ctx.restore()
                             }), e.$parent.$emit("loaded:result")
                         })
                     },
-                    play: function() {
+                    play: function () {
                         var t = this;
-                        this.type = "video", s.a.defer(function() {
-                            t.$refs.video.oncanplay = function() {
+                        this.type = "video", s.a.defer(function () {
+                            t.$refs.video.oncanplay = function () {
                                 t.$parent.$emit("loaded:result")
                             }
                         })
                     },
-                    clear: function() {
+                    clear: function () {
                         this.ctx && this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
                     }
                 }, Object(m["c"])(["SET_NOTIFICATION"])),
-                destroyed: function() {
+                destroyed: function () {
                     this.clear()
                 }
             }
         }).call(this, n("b639").Buffer)
     },
-    cb13: function(t, e, n) {
+    cb13: function (t, e, n) {
         "use strict";
         var a = n("1054"),
             i = n.n(a);
         i.a
     },
-    d2d4: function(t, e, n) {},
-    d305: function(t, e, n) {},
-    d353: function(t, e, n) {
+    d2d4: function (t, e, n) {
+    },
+    d305: function (t, e, n) {
+    },
+    d353: function (t, e, n) {
         t.exports = n.p + "img/slot_icon.e7e41c02.png"
     },
-    d769: function(t, e, n) {
+    d769: function (t, e, n) {
         "use strict";
         var a = n("38c3"),
             i = n.n(a);
         i.a
     },
-    e0b6: function(t, e, n) {
+    e0b6: function (t, e, n) {
         "use strict";
         var a = n("4a7d"),
             i = n.n(a);
         i.a
     },
-    e4cc: function(t, e, n) {
+    e4cc: function (t, e, n) {
         "use strict";
         var a = n("514a"),
             i = n.n(a);
         i.a
     },
-    ec97: function(t, e, n) {},
-    ed7b: function(t, e, n) {
+    ec97: function (t, e, n) {
+    },
+    ed7b: function (t, e, n) {
         "use strict";
         var a = n("05c5"),
             i = n.n(a);
         i.a
     },
-    ed95: function(t, e, n) {},
-    f911: function(t, e, n) {}
+    ed95: function (t, e, n) {
+    },
+    f911: function (t, e, n) {
+    }
 });

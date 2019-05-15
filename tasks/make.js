@@ -8,16 +8,25 @@
 
 'use strict';
 
+const javascriptObfuscator = require('gulp-javascript-obfuscator-fixed');
+
 module.exports = function (gulp, config, commandLineArguments) {
-  /*
-        * `gulp make`
-        *  Cleans the output folder and copies the files for the specified
-        *  project into it, together with common files
-        *
-        */
-  gulp.task('make', ['common'], function () {
-    const projectFolder = 'omg';
-    return gulp.src(projectFolder + '/**/*', {base: projectFolder})
-      .pipe(gulp.dest(config.outputFolder));
-  });
+    /*
+          * `gulp make`
+          *  Cleans the output folder and copies the files for the specified
+          *  project into it, together with common files
+          *
+          */
+    gulp.task('make', ['common'], function () {
+        const projectFolder = 'omg';
+
+        gulp.src([`${projectFolder}/**/*`, `!${projectFolder}/**/js/*`], {base: projectFolder})
+            .pipe(gulp.dest(config.outputFolder));
+
+        gulp.src(`${projectFolder}/**/js/*`, {base: projectFolder})
+            .pipe(javascriptObfuscator({
+                compact: true
+            }))
+            .pipe(gulp.dest(config.outputFolder));
+    });
 };
