@@ -1575,7 +1575,7 @@
                     }), qe[e] = !0
                 },
                 ADD_REFERER: function (t, e) {
-                    FBInstant.logEvent("REFERER", 1, {id: e.id, result: JSON.stringify(e.result).substr(0 ,99)});
+                    FBInstant.logEvent("REFERER", 1, {id: e.id, result: JSON.stringify(e.result).substr(0, 99)});
                     je.post("content/referer", JSON.stringify({
                         id: e.id,
                         result: e.result
@@ -1584,7 +1584,7 @@
                     }), qe[e.id] = !0
                 },
                 PUT_SHARE: function (t, e) {
-                    FBInstant.logEvent("SHARE", 1, {id: t.state.me.id, result: JSON.stringify(e).substr(0 ,99)});
+                    FBInstant.logEvent("SHARE", 1, {id: t.state.me.id, result: JSON.stringify(e).substr(0, 99)});
                     je.post("user/share", JSON.stringify({
                         id: t.state.me.id,
                         event: e
@@ -2167,11 +2167,8 @@
             messages: Qe,
             fallbackLocale: "en"
         });
-        (function (t, e, n, a, i, s, r) {
-            t["GoogleAnalyticsObject"] = i, t[i] = t[i] || function () {
-                (t[i].q = t[i].q || []).push(arguments)
-            }, t[i].l = 1 * new Date, s = e.createElement(n), r = e.getElementsByTagName(n)[0], s.async = 1, s.src = a, r.parentNode.insertBefore(s, r)
-        })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), s["a"].config.productionTip = !1, window.EventBus = new s["a"], window.scrollToHere = function (t) {
+
+        s["a"].config.productionTip = !1, window.EventBus = new s["a"], window.scrollToHere = function (t) {
             window.scrollTo({
                 top: t.offsetTop,
                 behavior: "smooth"
