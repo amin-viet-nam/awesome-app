@@ -925,18 +925,18 @@
                     attrs: {
                         src: n("d353")
                     }
-                }), t._v("\n        Lightning Slot\n        "), a("button", [t._v("Play")])])])])])
+                }), t._v("\n        PROMOTE_TITLE\n        "), a("button", [t._v("Play")])])])])])
             },
             At = [],
             xt = {
                 methods: {
                     play: function () {
-                        FBInstant.switchGameAsync("369180963635208", {
+                        FBInstant.switchGameAsync("INSTANT_GAME_ID_HERE_FOR_PROMOTE", {
                             referer: "OMG"
                         }).then(function () {
-                            FBInstant.logEvent("lightning_slot_promo_success", 1)
+                            FBInstant.logEvent("PROMOTE_SUCCESS", 1)
                         }).catch(function () {
-                            FBInstant.logEvent("lightning_slot_promo_fail", 1)
+                            FBInstant.logEvent("PROMOTE_FAIL", 1)
                         })
                     }
                 }
@@ -958,7 +958,7 @@
                 },
                 computed: Object(p["a"])({}, Object(v["d"])(["more_contents", "content", "reset", "app", "language"]), {
                     canPromo: function () {
-                        return "IOS" !== FBInstant.getPlatform() && "ANDROID" !== FBInstant.getPlatform()
+                        return false;//return "IOS" !== FBInstant.getPlatform() && "ANDROID" !== FBInstant.getPlatform()
                     }
                 }),
                 methods: Object(p["a"])({
@@ -1569,11 +1569,13 @@
                     }), t.commit("SET_HIDE_SHORTCUT", e)
                 },
                 ADD_VIEW: function (t, e) {
+                    FBInstant.logEvent("VIEW", 1, {id: e});
                     qe[e] || je.post("content/view", JSON.stringify({id: e})).catch(function () {
                         m.a.captureMessage("View Count Error:" + e)
                     }), qe[e] = !0
                 },
                 ADD_REFERER: function (t, e) {
+                    FBInstant.logEvent("REFERER", 1, {id: e.id, result: JSON.stringify(e.result).substr(0 ,99)});
                     je.post("content/referer", JSON.stringify({
                         id: e.id,
                         result: e.result
@@ -1582,6 +1584,7 @@
                     }), qe[e.id] = !0
                 },
                 PUT_SHARE: function (t, e) {
+                    FBInstant.logEvent("SHARE", 1, {id: t.state.me.id, result: JSON.stringify(e).substr(0 ,99)});
                     je.post("user/share", JSON.stringify({
                         id: t.state.me.id,
                         event: e
@@ -1694,7 +1697,7 @@
         s["a"].use(v["a"]);
         var He = new v["a"].Store({
                 state: {
-                    id: 455676461606571,
+                    id: 449383712489870,
                     app: "Awesome",
                     test: "a",
                     language: "en",
@@ -1712,14 +1715,13 @@
                     bounce: !0,
                     pageview: 0,
                     interstitial: {
-                        first: "455676461606571_484205228753694",
-                        second: "455676461606571_534312573742959",
+                        first: "449383712489870_465375637557344",
                         interval: 2,
                         played: 0,
                         placements: {}
                     },
                     reward: {
-                        id: "455676461606571_471636000010617",
+                        id: "449383712489870_465372747557633",
                         interval: 3,
                         played: 0
                     },
@@ -2154,7 +2156,7 @@
                 start: "Start"
             }
         };
-        m.a.config("https://dc26f08f3d8d423bb4b5ef757cc207d5@sentry.io/1338606", {
+        m.a.config("https://1a6c56649d2b4b85afc1a27c57c22f46@sentry.io/1459713", {
             sampleRate: .02
         }).install(), Object.defineProperty(s["a"].prototype, "_", {
             value: i.a
@@ -2220,7 +2222,7 @@
         i.a
     },
     9184: function (t, e, n) {
-        t.exports = n.p + "img/slot_banner.e36bc377.jpg"
+        t.exports = n.p + "img/promote_banner.jpg"
     },
     "9da7": function (t, e, n) {
         "use strict";
@@ -2455,7 +2457,7 @@
     d305: function (t, e, n) {
     },
     d353: function (t, e, n) {
-        t.exports = n.p + "img/slot_icon.e7e41c02.png"
+        t.exports = n.p + "img/promote_icon.png"
     },
     d769: function (t, e, n) {
         "use strict";
